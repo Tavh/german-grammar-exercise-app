@@ -1,0 +1,136 @@
+[
+  {
+    "id": "a2_1_trennbar_001",
+    "level": "A2.1",
+    "verb": "aufstehen",
+    "checklist_item": "trennbar",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank with the correct form of aufstehen: Ich ___ um 7 Uhr ___.",
+    "example_solutions": ["Ich stehe um 7 Uhr auf."],
+    "english": "I get up at 7 o'clock.",
+    "hint": "aufstehen is separable - prefix goes to the end",
+    "tags": ["trennbar", "aufstehen"]
+  },
+  {
+    "id": "a2_1_trennbar_002",
+    "level": "A2.1",
+    "verb": "anrufen",
+    "checklist_item": "trennbar",
+    "task_type": "reorder",
+    "prompt": "Form a sentence with anrufen (Präsens): Ich / rufe / meine Mutter / an",
+    "example_solutions": ["Ich rufe meine Mutter an."],
+    "english": "I call my mother.",
+    "hint": "anrufen is separable - 'an' goes to the end",
+    "tags": ["trennbar", "anrufen"]
+  },
+  {
+    "id": "a2_1_trennbar_003",
+    "level": "A2.1",
+    "verb": "mitkommen",
+    "checklist_item": "trennbar",
+    "task_type": "multiple_choice",
+    "prompt": "Choose the correct form: Kannst du ___?",
+    "example_solutions": ["Kannst du mitkommen?"],
+    "choices": ["mitkommen", "kommen mit", "mit kommen", "kommen"],
+    "english": "Can you come along?",
+    "hint": "mitkommen is separable - in infinitive, prefix stays attached",
+    "tags": ["trennbar", "mitkommen"]
+  },
+  {
+    "id": "a2_1_trennbar_004",
+    "level": "A2.1",
+    "verb": "aufmachen",
+    "checklist_item": "trennbar",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with the verb aufmachen (Präsens).",
+    "example_solutions": [
+      "Ich mache das Fenster auf.",
+      "Wir machen die Tür auf."
+    ],
+    "construction_hints": ["das Fenster", "die Tür", "ich", "wir"],
+    "english": "I/We open the window/door.",
+    "hint": "aufmachen is separable - 'auf' goes to the end",
+    "tags": ["trennbar", "aufmachen", "sentence_construction"]
+  },
+  {
+    "id": "a2_1_trennbar_005",
+    "level": "A2.1",
+    "verb": "zumachen",
+    "checklist_item": "trennbar",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ die Tür ___.",
+    "example_solutions": ["Ich mache die Tür zu."],
+    "english": "I close the door.",
+    "hint": "zumachen is separable - 'zu' goes to the end",
+    "tags": ["trennbar", "zumachen"]
+  },
+  {
+    "id": "a2_1_trennbar_006",
+    "level": "A2.1",
+    "verb": "anfangen",
+    "checklist_item": "trennbar",
+    "task_type": "multiple_choice",
+    "prompt": "Choose the correct form: Wann ___ der Unterricht ___?",
+    "example_solutions": ["Wann fängt der Unterricht an?"],
+    "choices": ["fängt an", "anfängt", "fängt", "an fängt"],
+    "english": "When does the class start?",
+    "hint": "anfangen is separable - 'an' goes to the end",
+    "tags": ["trennbar", "anfangen"]
+  },
+  {
+    "id": "a2_1_trennbar_007",
+    "level": "A2.1",
+    "verb": "aufhören",
+    "checklist_item": "trennbar",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with the verb aufhören (Präsens).",
+    "example_solutions": [
+      "Der Regen hört auf.",
+      "Wir hören um 5 Uhr auf."
+    ],
+    "construction_hints": ["der Regen", "um 5 Uhr", "wir"],
+    "english": "The rain stops. / We stop at 5 o'clock.",
+    "hint": "aufhören is separable - 'auf' goes to the end",
+    "tags": ["trennbar", "aufhören", "sentence_construction"]
+  },
+  {
+    "id": "a2_1_trennbar_008",
+    "level": "A2.1",
+    "verb": "mitbringen",
+    "checklist_item": "trennbar",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ das Buch ___.",
+    "example_solutions": ["Ich bringe das Buch mit."],
+    "english": "I bring the book along.",
+    "hint": "mitbringen is separable - 'mit' goes to the end",
+    "tags": ["trennbar", "mitbringen"]
+  },
+  {
+    "id": "a2_1_trennbar_009",
+    "level": "A2.1",
+    "verb": "einkaufen",
+    "checklist_item": "trennbar",
+    "task_type": "reorder",
+    "prompt": "Form a sentence with einkaufen (Präsens): Wir / kaufen / heute / ein",
+    "example_solutions": ["Wir kaufen heute ein."],
+    "english": "We shop today.",
+    "hint": "einkaufen is separable - 'ein' goes to the end",
+    "tags": ["trennbar", "einkaufen"]
+  },
+  {
+    "id": "a2_1_trennbar_010",
+    "level": "A2.1",
+    "verb": "vorbereiten",
+    "checklist_item": "trennbar",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with the verb vorbereiten (Präsens).",
+    "example_solutions": [
+      "Ich bereite das Essen vor.",
+      "Wir bereiten die Prüfung vor."
+    ],
+    "construction_hints": ["das Essen", "die Prüfung", "ich", "wir"],
+    "english": "I/We prepare the food/exam.",
+    "hint": "vorbereiten is separable - 'vor' goes to the end",
+    "tags": ["trennbar", "vorbereiten", "sentence_construction"]
+  }
+]

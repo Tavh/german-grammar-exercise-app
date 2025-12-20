@@ -1,0 +1,137 @@
+[
+  {
+    "id": "a2_1_praeposition_001",
+    "level": "A2.1",
+    "verb": "warten",
+    "checklist_item": "praeposition",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank with the correct preposition: Ich warte ___ den Bus.",
+    "example_solutions": ["Ich warte auf den Bus."],
+    "english": "I wait for the bus.",
+    "hint": "warten takes 'auf' + Akkusativ",
+    "tags": ["praeposition", "warten", "auf"]
+  },
+  {
+    "id": "a2_1_praeposition_002",
+    "level": "A2.1",
+    "verb": "denken",
+    "checklist_item": "praeposition",
+    "task_type": "multiple_choice",
+    "prompt": "Choose the correct preposition: Ich denke ___ meine Familie.",
+    "example_solutions": ["Ich denke an meine Familie."],
+    "choices": ["an", "auf", "über", "von"],
+    "english": "I think about my family.",
+    "hint": "denken takes 'an' + Akkusativ",
+    "tags": ["praeposition", "denken", "an"]
+  },
+  {
+    "id": "a2_1_praeposition_003",
+    "level": "A2.1",
+    "verb": "sich freuen",
+    "checklist_item": "praeposition",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank with the correct preposition: Ich freue mich ___ das Wochenende.",
+    "example_solutions": ["Ich freue mich auf das Wochenende."],
+    "english": "I look forward to the weekend.",
+    "hint": "sich freuen takes 'auf' + Akkusativ",
+    "tags": ["praeposition", "sich freuen", "auf"]
+  },
+  {
+    "id": "a2_1_praeposition_004",
+    "level": "A2.1",
+    "verb": "suchen",
+    "checklist_item": "praeposition",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with the verb suchen (Präsens).",
+    "example_solutions": [
+      "Ich suche nach dem Schlüssel.",
+      "Wir suchen nach einem Restaurant."
+    ],
+    "construction_hints": ["der Schlüssel", "ein Restaurant", "ich", "wir"],
+    "english": "I/We search for the key/a restaurant.",
+    "hint": "suchen takes 'nach' + Dativ",
+    "tags": ["praeposition", "suchen", "nach", "sentence_construction"]
+  },
+  {
+    "id": "a2_1_praeposition_005",
+    "level": "A2.1",
+    "verb": "sprechen",
+    "checklist_item": "praeposition",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich spreche ___ meinen Freund.",
+    "example_solutions": ["Ich spreche mit meinem Freund."],
+    "english": "I speak with my friend.",
+    "hint": "sprechen takes 'mit' + Dativ",
+    "tags": ["praeposition", "sprechen", "mit"]
+  },
+  {
+    "id": "a2_1_praeposition_006",
+    "level": "A2.1",
+    "verb": "fragen",
+    "checklist_item": "praeposition",
+    "task_type": "multiple_choice",
+    "prompt": "Choose the correct preposition: Ich frage ___ den Weg.",
+    "example_solutions": ["Ich frage nach dem Weg."],
+    "choices": ["nach", "auf", "über", "von"],
+    "english": "I ask for the way.",
+    "hint": "fragen takes 'nach' + Dativ",
+    "tags": ["praeposition", "fragen", "nach"]
+  },
+  {
+    "id": "a2_1_praeposition_007",
+    "level": "A2.1",
+    "verb": "sich interessieren",
+    "checklist_item": "praeposition",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with the verb sich interessieren (Präsens).",
+    "example_solutions": [
+      "Ich interessiere mich für Musik.",
+      "Wir interessieren uns für Sport."
+    ],
+    "construction_hints": ["Musik", "Sport", "ich", "wir"],
+    "english": "I/We am/are interested in music/sports.",
+    "hint": "sich interessieren takes 'für' + Akkusativ",
+    "tags": ["praeposition", "sich interessieren", "für", "sentence_construction"]
+  },
+  {
+    "id": "a2_1_praeposition_008",
+    "level": "A2.1",
+    "verb": "aufpassen",
+    "checklist_item": "praeposition",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich passe ___ das Kind ___.",
+    "example_solutions": ["Ich passe auf das Kind auf."],
+    "english": "I watch the child.",
+    "hint": "aufpassen takes 'auf' + Akkusativ",
+    "tags": ["praeposition", "aufpassen", "auf"]
+  },
+  {
+    "id": "a2_1_praeposition_009",
+    "level": "A2.1",
+    "verb": "sich kümmern",
+    "checklist_item": "praeposition",
+    "task_type": "multiple_choice",
+    "prompt": "Choose the correct preposition: Ich kümmere mich ___ meine Oma.",
+    "example_solutions": ["Ich kümmere mich um meine Oma."],
+    "choices": ["um", "für", "über", "von"],
+    "english": "I take care of my grandmother.",
+    "hint": "sich kümmern takes 'um' + Akkusativ",
+    "tags": ["praeposition", "sich kümmern", "um"]
+  },
+  {
+    "id": "a2_1_praeposition_010",
+    "level": "A2.1",
+    "verb": "sich beschäftigen",
+    "checklist_item": "praeposition",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with the verb sich beschäftigen (Präsens).",
+    "example_solutions": [
+      "Ich beschäftige mich mit Hausaufgaben.",
+      "Wir beschäftigen uns mit dem Projekt."
+    ],
+    "construction_hints": ["Hausaufgaben", "das Projekt", "ich", "wir"],
+    "english": "I/We work on homework/the project.",
+    "hint": "sich beschäftigen takes 'mit' + Dativ",
+    "tags": ["praeposition", "sich beschäftigen", "mit", "sentence_construction"]
+  }
+]

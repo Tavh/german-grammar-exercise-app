@@ -1,0 +1,137 @@
+[
+  {
+    "id": "a2_1_kasus_001",
+    "level": "A2.1",
+    "verb": "helfen",
+    "checklist_item": "kasus",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich helfe ___ Freund.",
+    "example_solutions": ["Ich helfe dem Freund.", "Ich helfe einem Freund."],
+    "english": "I help the friend.",
+    "hint": "helfen takes Dativ",
+    "tags": ["dativ", "helfen"]
+  },
+  {
+    "id": "a2_1_kasus_002",
+    "level": "A2.1",
+    "verb": "sehen",
+    "checklist_item": "kasus",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich sehe ___ Auto.",
+    "example_solutions": ["Ich sehe das Auto."],
+    "english": "I see the car.",
+    "hint": "sehen takes Akkusativ",
+    "tags": ["akkusativ", "sehen"]
+  },
+  {
+    "id": "a2_1_kasus_003",
+    "level": "A2.1",
+    "verb": "gefallen",
+    "checklist_item": "kasus",
+    "task_type": "multiple_choice",
+    "prompt": "Choose the correct form: Das Buch gefällt ___ Studenten.",
+    "example_solutions": ["Das Buch gefällt dem Studenten."],
+    "choices": ["der", "dem", "den", "des"],
+    "english": "The book pleases the student.",
+    "hint": "gefallen takes Dativ",
+    "tags": ["dativ", "gefallen"]
+  },
+  {
+    "id": "a2_1_kasus_004",
+    "level": "A2.1",
+    "verb": "helfen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with the verb helfen (Präsens).",
+    "example_solutions": [
+      "Ich helfe dem Freund.",
+      "Wir helfen der Lehrerin.",
+      "Du hilfst dem Kind."
+    ],
+    "construction_hints": ["du", "wir", "der Lehrer", "die Freundin", "at school"],
+    "english": "I/We/You help the friend/teacher/child.",
+    "hint": "helfen takes Dativ",
+    "tags": ["dativ", "helfen", "sentence_construction"]
+  },
+  {
+    "id": "a2_1_kasus_005",
+    "level": "A2.1",
+    "verb": "gehören",
+    "checklist_item": "kasus",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Das Buch gehört ___ Studentin.",
+    "example_solutions": ["Das Buch gehört der Studentin."],
+    "english": "The book belongs to the student.",
+    "hint": "gehören takes Dativ",
+    "tags": ["dativ", "gehören"]
+  },
+  {
+    "id": "a2_1_kasus_006",
+    "level": "A2.1",
+    "verb": "schmecken",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with the verb schmecken (Präsens).",
+    "example_solutions": [
+      "Das Essen schmeckt dem Kind.",
+      "Der Kuchen schmeckt mir gut."
+    ],
+    "construction_hints": ["das Essen", "der Kuchen", "mir", "dem Kind"],
+    "english": "The food/cake tastes good to me/the child.",
+    "hint": "schmecken takes Dativ",
+    "tags": ["dativ", "schmecken", "sentence_construction"]
+  },
+  {
+    "id": "a2_1_kasus_007",
+    "level": "A2.1",
+    "verb": "kaufen",
+    "checklist_item": "kasus",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich kaufe ___ Brot.",
+    "example_solutions": ["Ich kaufe das Brot."],
+    "english": "I buy the bread.",
+    "hint": "kaufen takes Akkusativ",
+    "tags": ["akkusativ", "kaufen"]
+  },
+  {
+    "id": "a2_1_kasus_008",
+    "level": "A2.1",
+    "verb": "danken",
+    "checklist_item": "kasus",
+    "task_type": "multiple_choice",
+    "prompt": "Choose the correct form: Ich danke ___ Lehrer.",
+    "example_solutions": ["Ich danke dem Lehrer."],
+    "choices": ["der", "dem", "den", "des"],
+    "english": "I thank the teacher.",
+    "hint": "danken takes Dativ",
+    "tags": ["dativ", "danken"]
+  },
+  {
+    "id": "a2_1_kasus_009",
+    "level": "A2.1",
+    "verb": "finden",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with the verb finden (Präsens).",
+    "example_solutions": [
+      "Ich finde das Buch interessant.",
+      "Wir finden den Film gut."
+    ],
+    "construction_hints": ["das Buch", "der Film", "interessant", "gut"],
+    "english": "I/We find the book/film interesting/good.",
+    "hint": "finden takes Akkusativ",
+    "tags": ["akkusativ", "finden", "sentence_construction"]
+  },
+  {
+    "id": "a2_1_kasus_010",
+    "level": "A2.1",
+    "verb": "antworten",
+    "checklist_item": "kasus",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich antworte ___ Frage.",
+    "example_solutions": ["Ich antworte auf die Frage."],
+    "english": "I answer the question.",
+    "hint": "antworten takes 'auf' + Akkusativ",
+    "tags": ["dativ", "antworten"]
+  }
+]
