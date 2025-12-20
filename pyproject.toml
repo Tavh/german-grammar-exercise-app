@@ -40,7 +40,7 @@ dev = [
 german-grammar = "german_grammar_app.cli.main:app"
 
 [tool.setuptools]
-packages = ["german_grammar_app", "german_grammar_app.app", "german_grammar_app.cli"]
+packages = { find = {} }
 
 [tool.black]
 line-length = 100
