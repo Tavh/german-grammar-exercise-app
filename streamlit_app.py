@@ -25,9 +25,18 @@ DEFAULT_SCHEMA_PATH = DEFAULT_DATA_DIR / "schema" / "exercise.schema.json"
 
 # Default favourite verbs for A2.1
 DEFAULT_FAVOURITES = [
-    "helfen", "sehen", "gefallen", "aufstehen", "anrufen", "mitkommen",
-    "warten", "denken", "sich freuen", "sich waschen", "sich setzen",
-    "sich erinnern", "gehen", "machen", "essen"
+    # Core actions
+    "helfen", "sehen", "geben", "nehmen", "finden", "bringen",
+    # Daily life / routines
+    "wohnen", "arbeiten", "lernen", "fahren", "einkaufen",
+    # Communication / intention
+    "sagen", "fragen", "antworten",
+    # Separable essentials
+    "aufstehen", "anrufen", "mitkommen", "anfangen", "aufhören",
+    # Reflexive essentials
+    "sich treffen", "sich fühlen", "sich interessieren", "sich freuen",
+    # Basic verbs
+    "gehen", "machen", "essen", "trinken", "kommen"
 ]
 
 

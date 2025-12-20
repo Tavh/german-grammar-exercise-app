@@ -6,10 +6,15 @@
     "checklist_item": "partizip_ii",
     "task_type": "fill_blank",
     "prompt": "Fill in the blank with the Partizip II: Ich bin nach Hause ___.",
-    "example_solutions": ["Ich bin nach Hause gegangen."],
+    "example_solutions": [
+      "Ich bin nach Hause gegangen."
+    ],
     "english": "I went home.",
     "hint": "gehen → gegangen (irregular)",
-    "tags": ["partizip_ii", "gehen"]
+    "tags": [
+      "partizip_ii",
+      "gehen"
+    ]
   },
   {
     "id": "a2_1_partizip_ii_002",
@@ -18,11 +23,21 @@
     "checklist_item": "partizip_ii",
     "task_type": "multiple_choice",
     "prompt": "Choose the correct Partizip II: Was hast du ___?",
-    "example_solutions": ["Was hast du gemacht?"],
-    "choices": ["gemacht", "gemachen", "macht", "machte"],
+    "example_solutions": [
+      "Was hast du gemacht?"
+    ],
+    "choices": [
+      "gemacht",
+      "gemachen",
+      "macht",
+      "machte"
+    ],
     "english": "What did you do?",
     "hint": "machen → gemacht (regular weak verb)",
-    "tags": ["partizip_ii", "machen"]
+    "tags": [
+      "partizip_ii",
+      "machen"
+    ]
   },
   {
     "id": "a2_1_partizip_ii_003",
@@ -31,10 +46,15 @@
     "checklist_item": "partizip_ii",
     "task_type": "fill_blank",
     "prompt": "Fill in the blank with the Partizip II: Hast du schon ___?",
-    "example_solutions": ["Hast du schon gegessen?"],
+    "example_solutions": [
+      "Hast du schon gegessen?"
+    ],
     "english": "Have you already eaten?",
     "hint": "essen → gegessen (irregular)",
-    "tags": ["partizip_ii", "essen"]
+    "tags": [
+      "partizip_ii",
+      "essen"
+    ]
   },
   {
     "id": "a2_1_partizip_ii_004",
@@ -47,10 +67,19 @@
       "Ich habe Kaffee getrunken.",
       "Wir haben Wasser getrunken."
     ],
-    "construction_hints": ["Kaffee", "Wasser", "ich", "wir"],
+    "construction_hints": [
+      "Kaffee",
+      "Wasser",
+      "ich",
+      "wir"
+    ],
     "english": "I/We drank coffee/water.",
     "hint": "trinken → getrunken (irregular)",
-    "tags": ["partizip_ii", "trinken", "sentence_construction"]
+    "tags": [
+      "partizip_ii",
+      "trinken",
+      "sentence_construction"
+    ]
   },
   {
     "id": "a2_1_partizip_ii_005",
@@ -59,10 +88,15 @@
     "checklist_item": "partizip_ii",
     "task_type": "fill_blank",
     "prompt": "Fill in the blank: Sie ist gestern ___.",
-    "example_solutions": ["Sie ist gestern gekommen."],
+    "example_solutions": [
+      "Sie ist gestern gekommen."
+    ],
     "english": "She came yesterday.",
     "hint": "kommen → gekommen (irregular)",
-    "tags": ["partizip_ii", "kommen"]
+    "tags": [
+      "partizip_ii",
+      "kommen"
+    ]
   },
   {
     "id": "a2_1_partizip_ii_006",
@@ -71,11 +105,21 @@
     "checklist_item": "partizip_ii",
     "task_type": "multiple_choice",
     "prompt": "Choose the correct Partizip II: Hast du den Film ___?",
-    "example_solutions": ["Hast du den Film gesehen?"],
-    "choices": ["gesehen", "geseht", "seht", "sah"],
+    "example_solutions": [
+      "Hast du den Film gesehen?"
+    ],
+    "choices": [
+      "gesehen",
+      "geseht",
+      "seht",
+      "sah"
+    ],
     "english": "Have you seen the film?",
     "hint": "sehen → gesehen (irregular)",
-    "tags": ["partizip_ii", "sehen"]
+    "tags": [
+      "partizip_ii",
+      "sehen"
+    ]
   },
   {
     "id": "a2_1_partizip_ii_007",
@@ -88,10 +132,19 @@
       "Ich habe einen Brief geschrieben.",
       "Wir haben die Hausaufgaben geschrieben."
     ],
-    "construction_hints": ["einen Brief", "die Hausaufgaben", "ich", "wir"],
+    "construction_hints": [
+      "einen Brief",
+      "die Hausaufgaben",
+      "ich",
+      "wir"
+    ],
     "english": "I/We wrote a letter/the homework.",
     "hint": "schreiben → geschrieben (irregular)",
-    "tags": ["partizip_ii", "schreiben", "sentence_construction"]
+    "tags": [
+      "partizip_ii",
+      "schreiben",
+      "sentence_construction"
+    ]
   },
   {
     "id": "a2_1_partizip_ii_008",
@@ -100,10 +153,15 @@
     "checklist_item": "partizip_ii",
     "task_type": "fill_blank",
     "prompt": "Fill in the blank: Ich habe das Buch ___.",
-    "example_solutions": ["Ich habe das Buch gelesen."],
+    "example_solutions": [
+      "Ich habe das Buch gelesen."
+    ],
     "english": "I read the book.",
     "hint": "lesen → gelesen (irregular)",
-    "tags": ["partizip_ii", "lesen"]
+    "tags": [
+      "partizip_ii",
+      "lesen"
+    ]
   },
   {
     "id": "a2_1_partizip_ii_009",
@@ -112,11 +170,21 @@
     "checklist_item": "partizip_ii",
     "task_type": "multiple_choice",
     "prompt": "Choose the correct Partizip II: Wir sind nach Berlin ___.",
-    "example_solutions": ["Wir sind nach Berlin gefahren."],
-    "choices": ["gefahren", "gefahrt", "fahrt", "fuhr"],
+    "example_solutions": [
+      "Wir sind nach Berlin gefahren."
+    ],
+    "choices": [
+      "gefahren",
+      "gefahrt",
+      "fahrt",
+      "fuhr"
+    ],
     "english": "We drove to Berlin.",
     "hint": "fahren → gefahren (irregular)",
-    "tags": ["partizip_ii", "fahren"]
+    "tags": [
+      "partizip_ii",
+      "fahren"
+    ]
   },
   {
     "id": "a2_1_partizip_ii_010",
@@ -129,9 +197,818 @@
       "Ich habe das Buch genommen.",
       "Wir haben den Bus genommen."
     ],
-    "construction_hints": ["das Buch", "der Bus", "ich", "wir"],
+    "construction_hints": [
+      "das Buch",
+      "der Bus",
+      "ich",
+      "wir"
+    ],
     "english": "I/We took the book/bus.",
     "hint": "nehmen → genommen (irregular)",
-    "tags": ["partizip_ii", "nehmen", "sentence_construction"]
+    "tags": [
+      "partizip_ii",
+      "nehmen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_011",
+    "level": "A2.1",
+    "verb": "bleiben",
+    "checklist_item": "partizip_ii",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich bin zu Hause ___.",
+    "example_solutions": [
+      "Ich bin zu Hause geblieben."
+    ],
+    "english": "I stayed at home.",
+    "hint": "bleiben → geblieben (irregular)",
+    "tags": [
+      "partizip_ii",
+      "bleiben"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_012",
+    "level": "A2.1",
+    "verb": "schlafen",
+    "checklist_item": "partizip_ii",
+    "task_type": "multiple_choice",
+    "prompt": "Choose the correct Partizip II: Hast du gut ___?",
+    "example_solutions": [
+      "Hast du gut geschlafen?"
+    ],
+    "choices": [
+      "geschlafen",
+      "geschlaft",
+      "schlaf",
+      "schlief"
+    ],
+    "english": "Did you sleep well?",
+    "hint": "schlafen → geschlafen (irregular)",
+    "tags": [
+      "partizip_ii",
+      "schlafen"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_013",
+    "level": "A2.1",
+    "verb": "kaufen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with the verb kaufen in Perfekt.",
+    "example_solutions": [
+      "Ich habe Brot gekauft.",
+      "Wir haben ein Auto gekauft."
+    ],
+    "construction_hints": [
+      "Brot",
+      "ein Auto",
+      "ich",
+      "wir"
+    ],
+    "english": "I/We bought bread/a car.",
+    "hint": "kaufen → gekauft (regular weak verb)",
+    "tags": [
+      "partizip_ii",
+      "kaufen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_014",
+    "level": "A2.1",
+    "verb": "arbeiten",
+    "checklist_item": "partizip_ii",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich habe gestern ___.",
+    "example_solutions": [
+      "Ich habe gestern gearbeitet."
+    ],
+    "english": "I worked yesterday.",
+    "hint": "arbeiten → gearbeitet (regular weak verb)",
+    "tags": [
+      "partizip_ii",
+      "arbeiten"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_015",
+    "level": "A2.1",
+    "verb": "spielen",
+    "checklist_item": "partizip_ii",
+    "task_type": "multiple_choice",
+    "prompt": "Choose the correct Partizip II: Wir haben Fußball ___.",
+    "example_solutions": [
+      "Wir haben Fußball gespielt."
+    ],
+    "choices": [
+      "gespielt",
+      "gespiel",
+      "spielt",
+      "spielte"
+    ],
+    "english": "We played football.",
+    "hint": "spielen → gespielt (regular weak verb)",
+    "tags": [
+      "partizip_ii",
+      "spielen"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_016",
+    "level": "A2.1",
+    "verb": "helfen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with the verb helfen in Perfekt.",
+    "example_solutions": [
+      "Ich habe meinem Freund geholfen.",
+      "Wir haben der Lehrerin geholfen."
+    ],
+    "construction_hints": [
+      "meinem Freund",
+      "der Lehrerin",
+      "ich",
+      "wir"
+    ],
+    "english": "I/We helped my friend/the teacher.",
+    "hint": "helfen → geholfen (irregular)",
+    "tags": [
+      "partizip_ii",
+      "helfen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_017",
+    "level": "A2.1",
+    "verb": "sagen",
+    "checklist_item": "partizip_ii",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich habe nichts ___.",
+    "example_solutions": [
+      "Ich habe nichts gesagt."
+    ],
+    "english": "I said nothing.",
+    "hint": "sagen → gesagt (regular weak verb)",
+    "tags": [
+      "partizip_ii",
+      "sagen"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_018",
+    "level": "A2.1",
+    "verb": "verstehen",
+    "checklist_item": "partizip_ii",
+    "task_type": "multiple_choice",
+    "prompt": "Choose the correct Partizip II: Hast du das ___?",
+    "example_solutions": [
+      "Hast du das verstanden?"
+    ],
+    "choices": [
+      "verstanden",
+      "versteh",
+      "versteht",
+      "verstand"
+    ],
+    "english": "Did you understand that?",
+    "hint": "verstehen → verstanden (irregular)",
+    "tags": [
+      "partizip_ii",
+      "verstehen"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_019",
+    "level": "A2.1",
+    "verb": "sprechen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with the verb sprechen in Perfekt.",
+    "example_solutions": [
+      "Ich habe mit meinem Freund gesprochen.",
+      "Wir haben Deutsch gesprochen."
+    ],
+    "construction_hints": [
+      "mit meinem Freund",
+      "Deutsch",
+      "ich",
+      "wir"
+    ],
+    "english": "I/We spoke with my friend / spoke German.",
+    "hint": "sprechen → gesprochen (irregular)",
+    "tags": [
+      "partizip_ii",
+      "sprechen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_020",
+    "level": "A2.1",
+    "verb": "hören",
+    "checklist_item": "partizip_ii",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich habe die Musik ___.",
+    "example_solutions": [
+      "Ich habe die Musik gehört."
+    ],
+    "english": "I heard the music.",
+    "hint": "hören → gehört (irregular)",
+    "tags": [
+      "partizip_ii",
+      "hören"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_021",
+    "level": "A2.1",
+    "verb": "gehen",
+    "checklist_item": "partizip_ii",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Wir sind gestern ___.",
+    "example_solutions": [
+      "Wir sind gestern gegangen."
+    ],
+    "english": "We went yesterday.",
+    "hint": "gehen → gegangen (irregular)",
+    "tags": [
+      "partizip_ii",
+      "gehen"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_022",
+    "level": "A2.1",
+    "verb": "gehen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with gehen in Perfekt.",
+    "example_solutions": [
+      "Ich bin ins Kino gegangen.",
+      "Wir sind spazieren gegangen."
+    ],
+    "construction_hints": [
+      "ins Kino",
+      "spazieren",
+      "ich",
+      "wir"
+    ],
+    "english": "I/We went to the cinema/went for a walk.",
+    "hint": "gehen → gegangen (irregular)",
+    "tags": [
+      "partizip_ii",
+      "gehen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_023",
+    "level": "A2.1",
+    "verb": "machen",
+    "checklist_item": "partizip_ii",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Was habt ihr ___?",
+    "example_solutions": [
+      "Was habt ihr gemacht?"
+    ],
+    "english": "What did you do?",
+    "hint": "machen → gemacht (regular weak verb)",
+    "tags": [
+      "partizip_ii",
+      "machen"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_024",
+    "level": "A2.1",
+    "verb": "machen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with machen in Perfekt.",
+    "example_solutions": [
+      "Ich habe die Hausaufgaben gemacht.",
+      "Wir haben einen Ausflug gemacht."
+    ],
+    "construction_hints": [
+      "die Hausaufgaben",
+      "einen Ausflug",
+      "ich",
+      "wir"
+    ],
+    "english": "I/We did the homework/made a trip.",
+    "hint": "machen → gemacht (regular weak verb)",
+    "tags": [
+      "partizip_ii",
+      "machen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_025",
+    "level": "A2.1",
+    "verb": "essen",
+    "checklist_item": "partizip_ii",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Habt ihr schon ___?",
+    "example_solutions": [
+      "Habt ihr schon gegessen?"
+    ],
+    "english": "Have you already eaten?",
+    "hint": "essen → gegessen (irregular)",
+    "tags": [
+      "partizip_ii",
+      "essen"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_026",
+    "level": "A2.1",
+    "verb": "essen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with essen in Perfekt.",
+    "example_solutions": [
+      "Ich habe Pizza gegessen.",
+      "Wir haben zusammen gegessen."
+    ],
+    "construction_hints": [
+      "Pizza",
+      "zusammen",
+      "ich",
+      "wir"
+    ],
+    "english": "I/We ate pizza/together.",
+    "hint": "essen → gegessen (irregular)",
+    "tags": [
+      "partizip_ii",
+      "essen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_027",
+    "level": "A2.1",
+    "verb": "trinken",
+    "checklist_item": "partizip_ii",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich habe Kaffee ___.",
+    "example_solutions": [
+      "Ich habe Kaffee getrunken."
+    ],
+    "english": "I drank coffee.",
+    "hint": "trinken → getrunken (irregular)",
+    "tags": [
+      "partizip_ii",
+      "trinken"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_028",
+    "level": "A2.1",
+    "verb": "trinken",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with trinken in Perfekt.",
+    "example_solutions": [
+      "Wir haben Tee getrunken.",
+      "Du hast viel Wasser getrunken."
+    ],
+    "construction_hints": [
+      "Tee",
+      "viel Wasser",
+      "wir",
+      "du"
+    ],
+    "english": "We/You drank tea/a lot of water.",
+    "hint": "trinken → getrunken (irregular)",
+    "tags": [
+      "partizip_ii",
+      "trinken",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_029",
+    "level": "A2.1",
+    "verb": "kommen",
+    "checklist_item": "partizip_ii",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Sie ist spät ___.",
+    "example_solutions": [
+      "Sie ist spät gekommen."
+    ],
+    "english": "She came late.",
+    "hint": "kommen → gekommen (irregular)",
+    "tags": [
+      "partizip_ii",
+      "kommen"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_030",
+    "level": "A2.1",
+    "verb": "kommen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with kommen in Perfekt.",
+    "example_solutions": [
+      "Ich bin nach Hause gekommen.",
+      "Wir sind pünktlich gekommen."
+    ],
+    "construction_hints": [
+      "nach Hause",
+      "pünktlich",
+      "ich",
+      "wir"
+    ],
+    "english": "I/We came home/on time.",
+    "hint": "kommen → gekommen (irregular)",
+    "tags": [
+      "partizip_ii",
+      "kommen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_031",
+    "level": "A2.1",
+    "verb": "sehen",
+    "checklist_item": "partizip_ii",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Hast du den Film ___?",
+    "example_solutions": [
+      "Hast du den Film gesehen?"
+    ],
+    "english": "Have you seen the film?",
+    "hint": "sehen → gesehen (irregular)",
+    "tags": [
+      "partizip_ii",
+      "sehen"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_032",
+    "level": "A2.1",
+    "verb": "sehen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with sehen in Perfekt.",
+    "example_solutions": [
+      "Ich habe meinen Freund gesehen.",
+      "Wir haben das Konzert gesehen."
+    ],
+    "construction_hints": [
+      "meinen Freund",
+      "das Konzert",
+      "ich",
+      "wir"
+    ],
+    "english": "I/We saw my friend/the concert.",
+    "hint": "sehen → gesehen (irregular)",
+    "tags": [
+      "partizip_ii",
+      "sehen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_033",
+    "level": "A2.1",
+    "verb": "kaufen",
+    "checklist_item": "partizip_ii",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Wir haben ein Geschenk ___.",
+    "example_solutions": [
+      "Wir haben ein Geschenk gekauft."
+    ],
+    "english": "We bought a gift.",
+    "hint": "kaufen → gekauft (regular weak verb)",
+    "tags": [
+      "partizip_ii",
+      "kaufen"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_034",
+    "level": "A2.1",
+    "verb": "kaufen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with kaufen in Perfekt.",
+    "example_solutions": [
+      "Ich habe neue Schuhe gekauft.",
+      "Du hast das Buch gekauft."
+    ],
+    "construction_hints": [
+      "neue Schuhe",
+      "das Buch",
+      "ich",
+      "du"
+    ],
+    "english": "I/You bought new shoes/the book.",
+    "hint": "kaufen → gekauft (regular weak verb)",
+    "tags": [
+      "partizip_ii",
+      "kaufen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_035",
+    "level": "A2.1",
+    "verb": "arbeiten",
+    "checklist_item": "partizip_ii",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Sie hat den ganzen Tag ___.",
+    "example_solutions": [
+      "Sie hat den ganzen Tag gearbeitet."
+    ],
+    "english": "She worked the whole day.",
+    "hint": "arbeiten → gearbeitet (regular weak verb)",
+    "tags": [
+      "partizip_ii",
+      "arbeiten"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_036",
+    "level": "A2.1",
+    "verb": "arbeiten",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with arbeiten in Perfekt.",
+    "example_solutions": [
+      "Ich habe viel gearbeitet.",
+      "Wir haben am Wochenende gearbeitet."
+    ],
+    "construction_hints": [
+      "viel",
+      "am Wochenende",
+      "ich",
+      "wir"
+    ],
+    "english": "I/We worked a lot/on the weekend.",
+    "hint": "arbeiten → gearbeitet (regular weak verb)",
+    "tags": [
+      "partizip_ii",
+      "arbeiten",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_037",
+    "level": "A2.1",
+    "verb": "lernen",
+    "checklist_item": "partizip_ii",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich habe Deutsch ___.",
+    "example_solutions": [
+      "Ich habe Deutsch gelernt."
+    ],
+    "english": "I learned German.",
+    "hint": "lernen → gelernt (irregular)",
+    "tags": [
+      "partizip_ii",
+      "lernen"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_038",
+    "level": "A2.1",
+    "verb": "lernen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with lernen in Perfekt.",
+    "example_solutions": [
+      "Wir haben neue Vokabeln gelernt.",
+      "Du hast viel gelernt."
+    ],
+    "construction_hints": [
+      "neue Vokabeln",
+      "viel",
+      "wir",
+      "du"
+    ],
+    "english": "We/You learned new vocabulary/a lot.",
+    "hint": "lernen → gelernt (irregular)",
+    "tags": [
+      "partizip_ii",
+      "lernen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_039",
+    "level": "A2.1",
+    "verb": "sagen",
+    "checklist_item": "partizip_ii",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Was hast du ___?",
+    "example_solutions": [
+      "Was hast du gesagt?"
+    ],
+    "english": "What did you say?",
+    "hint": "sagen → gesagt (regular weak verb)",
+    "tags": [
+      "partizip_ii",
+      "sagen"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_040",
+    "level": "A2.1",
+    "verb": "sagen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with sagen in Perfekt.",
+    "example_solutions": [
+      "Ich habe die Wahrheit gesagt.",
+      "Wir haben nichts gesagt."
+    ],
+    "construction_hints": [
+      "die Wahrheit",
+      "nichts",
+      "ich",
+      "wir"
+    ],
+    "english": "I/We said the truth/nothing.",
+    "hint": "sagen → gesagt (regular weak verb)",
+    "tags": [
+      "partizip_ii",
+      "sagen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_041",
+    "level": "A2.1",
+    "verb": "fragen",
+    "checklist_item": "partizip_ii",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Hast du den Lehrer ___?",
+    "example_solutions": [
+      "Hast du den Lehrer gefragt?"
+    ],
+    "english": "Did you ask the teacher?",
+    "hint": "fragen → gefragt (regular weak verb)",
+    "tags": [
+      "partizip_ii",
+      "fragen"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_042",
+    "level": "A2.1",
+    "verb": "fragen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with fragen in Perfekt.",
+    "example_solutions": [
+      "Ich habe nach dem Weg gefragt.",
+      "Wir haben viele Fragen gefragt."
+    ],
+    "construction_hints": [
+      "nach dem Weg",
+      "viele Fragen",
+      "ich",
+      "wir"
+    ],
+    "english": "I/We asked for the way/many questions.",
+    "hint": "fragen → gefragt (regular weak verb)",
+    "tags": [
+      "partizip_ii",
+      "fragen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_043",
+    "level": "A2.1",
+    "verb": "geben",
+    "checklist_item": "partizip_ii",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich habe dir das Buch ___.",
+    "example_solutions": [
+      "Ich habe dir das Buch gegeben."
+    ],
+    "english": "I gave you the book.",
+    "hint": "geben → gegeben (irregular)",
+    "tags": [
+      "partizip_ii",
+      "geben"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_044",
+    "level": "A2.1",
+    "verb": "geben",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with geben in Perfekt.",
+    "example_solutions": [
+      "Wir haben dem Kind ein Geschenk gegeben.",
+      "Du hast mir geholfen."
+    ],
+    "construction_hints": [
+      "dem Kind ein Geschenk",
+      "mir",
+      "wir",
+      "du"
+    ],
+    "english": "We/You gave the child a gift/helped me.",
+    "hint": "geben → gegeben (irregular)",
+    "tags": [
+      "partizip_ii",
+      "geben",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_045",
+    "level": "A2.1",
+    "verb": "nehmen",
+    "checklist_item": "partizip_ii",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Wir haben den Bus ___.",
+    "example_solutions": [
+      "Wir haben den Bus genommen."
+    ],
+    "english": "We took the bus.",
+    "hint": "nehmen → genommen (irregular)",
+    "tags": [
+      "partizip_ii",
+      "nehmen"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_046",
+    "level": "A2.1",
+    "verb": "nehmen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with nehmen in Perfekt.",
+    "example_solutions": [
+      "Ich habe das Buch genommen.",
+      "Du hast den Zug genommen."
+    ],
+    "construction_hints": [
+      "das Buch",
+      "den Zug",
+      "ich",
+      "du"
+    ],
+    "english": "I/You took the book/train.",
+    "hint": "nehmen → genommen (irregular)",
+    "tags": [
+      "partizip_ii",
+      "nehmen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_047",
+    "level": "A2.1",
+    "verb": "helfen",
+    "checklist_item": "partizip_ii",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich habe meinem Freund ___.",
+    "example_solutions": [
+      "Ich habe meinem Freund geholfen."
+    ],
+    "english": "I helped my friend.",
+    "hint": "helfen → geholfen (irregular)",
+    "tags": [
+      "partizip_ii",
+      "helfen"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_048",
+    "level": "A2.1",
+    "verb": "helfen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with helfen in Perfekt.",
+    "example_solutions": [
+      "Wir haben der Lehrerin geholfen.",
+      "Du hast mir geholfen."
+    ],
+    "construction_hints": [
+      "der Lehrerin",
+      "mir",
+      "wir",
+      "du"
+    ],
+    "english": "We/You helped the teacher/me.",
+    "hint": "helfen → geholfen (irregular)",
+    "tags": [
+      "partizip_ii",
+      "helfen",
+      "sentence_construction"
+    ]
   }
 ]

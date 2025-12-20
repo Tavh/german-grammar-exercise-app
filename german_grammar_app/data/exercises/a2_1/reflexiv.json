@@ -6,10 +6,15 @@
     "checklist_item": "reflexiv",
     "task_type": "fill_blank",
     "prompt": "Fill in the blank with the correct reflexive form: Ich ___ die Hände.",
-    "example_solutions": ["Ich wasche mir die Hände."],
+    "example_solutions": [
+      "Ich wasche mir die Hände."
+    ],
     "english": "I wash my hands.",
     "hint": "sich waschen requires reflexive pronoun",
-    "tags": ["reflexiv", "sich waschen"]
+    "tags": [
+      "reflexiv",
+      "sich waschen"
+    ]
   },
   {
     "id": "a2_1_reflexiv_002",
@@ -18,11 +23,21 @@
     "checklist_item": "reflexiv",
     "task_type": "multiple_choice",
     "prompt": "Choose the correct reflexive pronoun: Setz ___ bitte!",
-    "example_solutions": ["Setz dich bitte!"],
-    "choices": ["dich", "dir", "du", "dein"],
+    "example_solutions": [
+      "Setz dich bitte!"
+    ],
+    "choices": [
+      "dich",
+      "dir",
+      "du",
+      "dein"
+    ],
     "english": "Please sit down!",
     "hint": "sich setzen requires reflexive pronoun (Akkusativ for 'du')",
-    "tags": ["reflexiv", "sich setzen"]
+    "tags": [
+      "reflexiv",
+      "sich setzen"
+    ]
   },
   {
     "id": "a2_1_reflexiv_003",
@@ -31,10 +46,15 @@
     "checklist_item": "reflexiv",
     "task_type": "fill_blank",
     "prompt": "Fill in the blank with the correct reflexive pronoun: Erinnern Sie ___ an den Termin?",
-    "example_solutions": ["Erinnern Sie sich an den Termin?"],
+    "example_solutions": [
+      "Erinnern Sie sich an den Termin?"
+    ],
     "english": "Do you remember the appointment?",
     "hint": "sich erinnern requires reflexive pronoun",
-    "tags": ["reflexiv", "sich erinnern"]
+    "tags": [
+      "reflexiv",
+      "sich erinnern"
+    ]
   },
   {
     "id": "a2_1_reflexiv_004",
@@ -47,10 +67,18 @@
       "Ich ziehe mich an.",
       "Wir ziehen uns schnell an."
     ],
-    "construction_hints": ["ich", "wir", "schnell"],
+    "construction_hints": [
+      "ich",
+      "wir",
+      "schnell"
+    ],
     "english": "I/We get dressed (quickly).",
     "hint": "sich anziehen requires reflexive pronoun",
-    "tags": ["reflexiv", "sich anziehen", "sentence_construction"]
+    "tags": [
+      "reflexiv",
+      "sich anziehen",
+      "sentence_construction"
+    ]
   },
   {
     "id": "a2_1_reflexiv_005",
@@ -59,10 +87,15 @@
     "checklist_item": "reflexiv",
     "task_type": "fill_blank",
     "prompt": "Fill in the blank: Ich ___ mich nach der Arbeit ___.",
-    "example_solutions": ["Ich ruhe mich nach der Arbeit aus."],
+    "example_solutions": [
+      "Ich ruhe mich nach der Arbeit aus."
+    ],
     "english": "I rest after work.",
     "hint": "sich ausruhen requires reflexive pronoun",
-    "tags": ["reflexiv", "sich ausruhen"]
+    "tags": [
+      "reflexiv",
+      "sich ausruhen"
+    ]
   },
   {
     "id": "a2_1_reflexiv_006",
@@ -71,11 +104,21 @@
     "checklist_item": "reflexiv",
     "task_type": "multiple_choice",
     "prompt": "Choose the correct form: Ich stelle ___ vor.",
-    "example_solutions": ["Ich stelle mich vor."],
-    "choices": ["mich", "mir", "ich", "mein"],
+    "example_solutions": [
+      "Ich stelle mich vor."
+    ],
+    "choices": [
+      "mich",
+      "mir",
+      "ich",
+      "mein"
+    ],
     "english": "I introduce myself.",
     "hint": "sich vorstellen requires reflexive pronoun (Akkusativ)",
-    "tags": ["reflexiv", "sich vorstellen"]
+    "tags": [
+      "reflexiv",
+      "sich vorstellen"
+    ]
   },
   {
     "id": "a2_1_reflexiv_007",
@@ -88,10 +131,18 @@
       "Ich beeile mich.",
       "Wir müssen uns beeilen."
     ],
-    "construction_hints": ["ich", "wir", "müssen"],
+    "construction_hints": [
+      "ich",
+      "wir",
+      "müssen"
+    ],
     "english": "I hurry. / We must hurry.",
     "hint": "sich beeilen requires reflexive pronoun",
-    "tags": ["reflexiv", "sich beeilen", "sentence_construction"]
+    "tags": [
+      "reflexiv",
+      "sich beeilen",
+      "sentence_construction"
+    ]
   },
   {
     "id": "a2_1_reflexiv_008",
@@ -100,10 +151,15 @@
     "checklist_item": "reflexiv",
     "task_type": "fill_blank",
     "prompt": "Fill in the blank: Ich ___ mich von meinen Freunden ___.",
-    "example_solutions": ["Ich verabschiede mich von meinen Freunden."],
+    "example_solutions": [
+      "Ich verabschiede mich von meinen Freunden."
+    ],
     "english": "I say goodbye to my friends.",
     "hint": "sich verabschieden requires reflexive pronoun",
-    "tags": ["reflexiv", "sich verabschieden"]
+    "tags": [
+      "reflexiv",
+      "sich verabschieden"
+    ]
   },
   {
     "id": "a2_1_reflexiv_009",
@@ -112,11 +168,21 @@
     "checklist_item": "reflexiv",
     "task_type": "multiple_choice",
     "prompt": "Choose the correct form: Ich entscheide ___ für Deutsch.",
-    "example_solutions": ["Ich entscheide mich für Deutsch."],
-    "choices": ["mich", "mir", "ich", "mein"],
+    "example_solutions": [
+      "Ich entscheide mich für Deutsch."
+    ],
+    "choices": [
+      "mich",
+      "mir",
+      "ich",
+      "mein"
+    ],
     "english": "I decide on German.",
     "hint": "sich entscheiden requires reflexive pronoun (Akkusativ)",
-    "tags": ["reflexiv", "sich entscheiden"]
+    "tags": [
+      "reflexiv",
+      "sich entscheiden"
+    ]
   },
   {
     "id": "a2_1_reflexiv_010",
@@ -129,9 +195,1036 @@
       "Wir treffen uns morgen.",
       "Ich treffe mich mit meinem Freund."
     ],
-    "construction_hints": ["wir", "ich", "morgen", "mit meinem Freund"],
+    "construction_hints": [
+      "wir",
+      "ich",
+      "morgen",
+      "mit meinem Freund"
+    ],
     "english": "We meet tomorrow. / I meet with my friend.",
     "hint": "sich treffen requires reflexive pronoun",
-    "tags": ["reflexiv", "sich treffen", "sentence_construction"]
+    "tags": [
+      "reflexiv",
+      "sich treffen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_011",
+    "level": "A2.1",
+    "verb": "sich freuen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich auf das Wochenende.",
+    "example_solutions": [
+      "Ich freue mich auf das Wochenende."
+    ],
+    "english": "I look forward to the weekend.",
+    "hint": "sich freuen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich freuen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_012",
+    "level": "A2.1",
+    "verb": "sich ärgern",
+    "checklist_item": "reflexiv",
+    "task_type": "multiple_choice",
+    "prompt": "Choose the correct form: Ich ärgere ___ über das Wetter.",
+    "example_solutions": [
+      "Ich ärgere mich über das Wetter."
+    ],
+    "choices": [
+      "mich",
+      "mir",
+      "ich",
+      "mein"
+    ],
+    "english": "I am annoyed about the weather.",
+    "hint": "sich ärgern requires reflexive pronoun (Akkusativ)",
+    "tags": [
+      "reflexiv",
+      "sich ärgern"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_013",
+    "level": "A2.1",
+    "verb": "sich hinlegen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with the verb sich hinlegen (Präsens).",
+    "example_solutions": [
+      "Ich lege mich hin.",
+      "Wir legen uns auf das Sofa."
+    ],
+    "construction_hints": [
+      "ich",
+      "wir",
+      "auf das Sofa"
+    ],
+    "english": "I/We lie down (on the sofa).",
+    "hint": "sich hinlegen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich hinlegen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_014",
+    "level": "A2.1",
+    "verb": "sich umziehen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich schnell ___.",
+    "example_solutions": [
+      "Ich ziehe mich schnell um."
+    ],
+    "english": "I change clothes quickly.",
+    "hint": "sich umziehen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich umziehen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_015",
+    "level": "A2.1",
+    "verb": "sich entspannen",
+    "checklist_item": "reflexiv",
+    "task_type": "multiple_choice",
+    "prompt": "Choose the correct form: Ich entspanne ___ am Abend.",
+    "example_solutions": [
+      "Ich entspanne mich am Abend."
+    ],
+    "choices": [
+      "mich",
+      "mir",
+      "ich",
+      "mein"
+    ],
+    "english": "I relax in the evening.",
+    "hint": "sich entspannen requires reflexive pronoun (Akkusativ)",
+    "tags": [
+      "reflexiv",
+      "sich entspannen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_016",
+    "level": "A2.1",
+    "verb": "sich kämmen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with the verb sich kämmen (Präsens).",
+    "example_solutions": [
+      "Ich kämme mich.",
+      "Sie kämmt sich die Haare."
+    ],
+    "construction_hints": [
+      "ich",
+      "sie",
+      "die Haare"
+    ],
+    "english": "I comb my hair. / She combs her hair.",
+    "hint": "sich kämmen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich kämmen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_017",
+    "level": "A2.1",
+    "verb": "sich duschen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich jeden Morgen ___.",
+    "example_solutions": [
+      "Ich dusche mich jeden Morgen."
+    ],
+    "english": "I shower every morning.",
+    "hint": "sich duschen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich duschen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_018",
+    "level": "A2.1",
+    "verb": "sich verletzen",
+    "checklist_item": "reflexiv",
+    "task_type": "multiple_choice",
+    "prompt": "Choose the correct form: Ich verletze ___ am Fuß.",
+    "example_solutions": [
+      "Ich verletze mich am Fuß."
+    ],
+    "choices": [
+      "mich",
+      "mir",
+      "ich",
+      "mein"
+    ],
+    "english": "I injure myself on the foot.",
+    "hint": "sich verletzen requires reflexive pronoun (Akkusativ)",
+    "tags": [
+      "reflexiv",
+      "sich verletzen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_019",
+    "level": "A2.1",
+    "verb": "sich fühlen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with the verb sich fühlen (Präsens).",
+    "example_solutions": [
+      "Ich fühle mich gut.",
+      "Wir fühlen uns müde."
+    ],
+    "construction_hints": [
+      "ich",
+      "wir",
+      "gut",
+      "müde"
+    ],
+    "english": "I/We feel good/tired.",
+    "hint": "sich fühlen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich fühlen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_020",
+    "level": "A2.1",
+    "verb": "sich schämen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich für den Fehler ___.",
+    "example_solutions": [
+      "Ich schäme mich für den Fehler."
+    ],
+    "english": "I am ashamed of the mistake.",
+    "hint": "sich schämen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich schämen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_021",
+    "level": "A2.1",
+    "verb": "sich waschen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Du ___ dir das Gesicht.",
+    "example_solutions": [
+      "Du wäschst dir das Gesicht."
+    ],
+    "english": "You wash your face.",
+    "hint": "sich waschen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich waschen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_022",
+    "level": "A2.1",
+    "verb": "sich waschen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with sich waschen (Präsens).",
+    "example_solutions": [
+      "Ich wasche mich.",
+      "Wir waschen uns die Hände."
+    ],
+    "construction_hints": [
+      "mich",
+      "uns die Hände",
+      "ich",
+      "wir"
+    ],
+    "english": "I wash myself. / We wash our hands.",
+    "hint": "sich waschen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich waschen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_023",
+    "level": "A2.1",
+    "verb": "sich setzen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich auf den Stuhl.",
+    "example_solutions": [
+      "Ich setze mich auf den Stuhl."
+    ],
+    "english": "I sit down on the chair.",
+    "hint": "sich setzen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich setzen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_024",
+    "level": "A2.1",
+    "verb": "sich setzen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with sich setzen (Präsens).",
+    "example_solutions": [
+      "Wir setzen uns hin.",
+      "Du setzt dich bitte."
+    ],
+    "construction_hints": [
+      "uns",
+      "dich",
+      "wir",
+      "du"
+    ],
+    "english": "We sit down. / Please sit down.",
+    "hint": "sich setzen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich setzen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_025",
+    "level": "A2.1",
+    "verb": "sich erinnern",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich an den Tag.",
+    "example_solutions": [
+      "Ich erinnere mich an den Tag."
+    ],
+    "english": "I remember the day.",
+    "hint": "sich erinnern requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich erinnern"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_026",
+    "level": "A2.1",
+    "verb": "sich erinnern",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with sich erinnern (Präsens).",
+    "example_solutions": [
+      "Wir erinnern uns an die Reise.",
+      "Du erinnerst dich an deine Kindheit."
+    ],
+    "construction_hints": [
+      "an die Reise",
+      "an deine Kindheit",
+      "wir",
+      "du"
+    ],
+    "english": "We/You remember the trip/your childhood.",
+    "hint": "sich erinnern requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich erinnern",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_027",
+    "level": "A2.1",
+    "verb": "sich anziehen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Sie ___ sich schnell ___.",
+    "example_solutions": [
+      "Sie zieht sich schnell an."
+    ],
+    "english": "She gets dressed quickly.",
+    "hint": "sich anziehen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich anziehen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_028",
+    "level": "A2.1",
+    "verb": "sich anziehen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with sich anziehen (Präsens).",
+    "example_solutions": [
+      "Ich ziehe mich an.",
+      "Wir ziehen uns warm an."
+    ],
+    "construction_hints": [
+      "mich",
+      "uns warm",
+      "ich",
+      "wir"
+    ],
+    "english": "I get dressed. / We dress warmly.",
+    "hint": "sich anziehen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich anziehen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_029",
+    "level": "A2.1",
+    "verb": "sich treffen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Wir ___ uns heute.",
+    "example_solutions": [
+      "Wir treffen uns heute."
+    ],
+    "english": "We meet today.",
+    "hint": "sich treffen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich treffen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_030",
+    "level": "A2.1",
+    "verb": "sich treffen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with sich treffen (Präsens).",
+    "example_solutions": [
+      "Ich treffe mich mit meiner Freundin.",
+      "Du triffst dich mit deinen Kollegen."
+    ],
+    "construction_hints": [
+      "mit meiner Freundin",
+      "mit deinen Kollegen",
+      "ich",
+      "du"
+    ],
+    "english": "I/You meet with my girlfriend/your colleagues.",
+    "hint": "sich treffen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich treffen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_031",
+    "level": "A2.1",
+    "verb": "sich freuen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Du ___ dich auf den Urlaub.",
+    "example_solutions": [
+      "Du freust dich auf den Urlaub."
+    ],
+    "english": "You look forward to the vacation.",
+    "hint": "sich freuen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich freuen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_032",
+    "level": "A2.1",
+    "verb": "sich freuen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with sich freuen (Präsens).",
+    "example_solutions": [
+      "Ich freue mich sehr.",
+      "Wir freuen uns über das Geschenk."
+    ],
+    "construction_hints": [
+      "sehr",
+      "über das Geschenk",
+      "ich",
+      "wir"
+    ],
+    "english": "I am very happy. / We are happy about the gift.",
+    "hint": "sich freuen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich freuen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_033",
+    "level": "A2.1",
+    "verb": "sich fühlen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich krank.",
+    "example_solutions": [
+      "Ich fühle mich krank."
+    ],
+    "english": "I feel sick.",
+    "hint": "sich fühlen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich fühlen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_034",
+    "level": "A2.1",
+    "verb": "sich fühlen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with sich fühlen (Präsens).",
+    "example_solutions": [
+      "Wir fühlen uns wohl.",
+      "Du fühlst dich besser."
+    ],
+    "construction_hints": [
+      "wohl",
+      "besser",
+      "wir",
+      "du"
+    ],
+    "english": "We feel well. / You feel better.",
+    "hint": "sich fühlen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich fühlen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_035",
+    "level": "A2.1",
+    "verb": "sich entscheiden",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich für Deutsch.",
+    "example_solutions": [
+      "Ich entscheide mich für Deutsch."
+    ],
+    "english": "I decide on German.",
+    "hint": "sich entscheiden requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich entscheiden"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_036",
+    "level": "A2.1",
+    "verb": "sich entscheiden",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with sich entscheiden (Präsens).",
+    "example_solutions": [
+      "Wir entscheiden uns für das Restaurant.",
+      "Du entscheidest dich schnell."
+    ],
+    "construction_hints": [
+      "für das Restaurant",
+      "schnell",
+      "wir",
+      "du"
+    ],
+    "english": "We decide on the restaurant. / You decide quickly.",
+    "hint": "sich entscheiden requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich entscheiden",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_037",
+    "level": "A2.1",
+    "verb": "sich waschen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich.",
+    "example_solutions": [
+      "Ich waschen mich."
+    ],
+    "english": "I sich waschen.",
+    "hint": "sich waschen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich waschen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_038",
+    "level": "A2.1",
+    "verb": "sich waschen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with sich waschen (Präsens).",
+    "example_solutions": [
+      "Ich waschen mich.",
+      "Wir waschen uns."
+    ],
+    "construction_hints": [
+      "mich",
+      "uns",
+      "ich",
+      "wir"
+    ],
+    "english": "I/We sich waschen.",
+    "hint": "sich waschen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich waschen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_039",
+    "level": "A2.1",
+    "verb": "sich waschen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich.",
+    "example_solutions": [
+      "Ich waschen mich."
+    ],
+    "english": "I sich waschen.",
+    "hint": "sich waschen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich waschen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_040",
+    "level": "A2.1",
+    "verb": "sich setzen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich.",
+    "example_solutions": [
+      "Ich setzen mich."
+    ],
+    "english": "I sich setzen.",
+    "hint": "sich setzen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich setzen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_041",
+    "level": "A2.1",
+    "verb": "sich setzen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with sich setzen (Präsens).",
+    "example_solutions": [
+      "Ich setzen mich.",
+      "Wir setzen uns."
+    ],
+    "construction_hints": [
+      "mich",
+      "uns",
+      "ich",
+      "wir"
+    ],
+    "english": "I/We sich setzen.",
+    "hint": "sich setzen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich setzen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_042",
+    "level": "A2.1",
+    "verb": "sich setzen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich.",
+    "example_solutions": [
+      "Ich setzen mich."
+    ],
+    "english": "I sich setzen.",
+    "hint": "sich setzen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich setzen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_043",
+    "level": "A2.1",
+    "verb": "sich erinnern",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich.",
+    "example_solutions": [
+      "Ich erinnern mich."
+    ],
+    "english": "I sich erinnern.",
+    "hint": "sich erinnern requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich erinnern"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_044",
+    "level": "A2.1",
+    "verb": "sich erinnern",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with sich erinnern (Präsens).",
+    "example_solutions": [
+      "Ich erinnern mich.",
+      "Wir erinnern uns."
+    ],
+    "construction_hints": [
+      "mich",
+      "uns",
+      "ich",
+      "wir"
+    ],
+    "english": "I/We sich erinnern.",
+    "hint": "sich erinnern requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich erinnern",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_045",
+    "level": "A2.1",
+    "verb": "sich erinnern",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich.",
+    "example_solutions": [
+      "Ich erinnern mich."
+    ],
+    "english": "I sich erinnern.",
+    "hint": "sich erinnern requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich erinnern"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_046",
+    "level": "A2.1",
+    "verb": "sich anziehen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich.",
+    "example_solutions": [
+      "Ich anziehen mich."
+    ],
+    "english": "I sich anziehen.",
+    "hint": "sich anziehen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich anziehen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_047",
+    "level": "A2.1",
+    "verb": "sich anziehen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with sich anziehen (Präsens).",
+    "example_solutions": [
+      "Ich anziehen mich.",
+      "Wir anziehen uns."
+    ],
+    "construction_hints": [
+      "mich",
+      "uns",
+      "ich",
+      "wir"
+    ],
+    "english": "I/We sich anziehen.",
+    "hint": "sich anziehen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich anziehen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_048",
+    "level": "A2.1",
+    "verb": "sich anziehen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich.",
+    "example_solutions": [
+      "Ich anziehen mich."
+    ],
+    "english": "I sich anziehen.",
+    "hint": "sich anziehen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich anziehen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_049",
+    "level": "A2.1",
+    "verb": "sich treffen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich.",
+    "example_solutions": [
+      "Ich treffen mich."
+    ],
+    "english": "I sich treffen.",
+    "hint": "sich treffen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich treffen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_050",
+    "level": "A2.1",
+    "verb": "sich treffen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with sich treffen (Präsens).",
+    "example_solutions": [
+      "Ich treffen mich.",
+      "Wir treffen uns."
+    ],
+    "construction_hints": [
+      "mich",
+      "uns",
+      "ich",
+      "wir"
+    ],
+    "english": "I/We sich treffen.",
+    "hint": "sich treffen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich treffen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_051",
+    "level": "A2.1",
+    "verb": "sich treffen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich.",
+    "example_solutions": [
+      "Ich treffen mich."
+    ],
+    "english": "I sich treffen.",
+    "hint": "sich treffen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich treffen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_052",
+    "level": "A2.1",
+    "verb": "sich freuen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich.",
+    "example_solutions": [
+      "Ich freuen mich."
+    ],
+    "english": "I sich freuen.",
+    "hint": "sich freuen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich freuen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_053",
+    "level": "A2.1",
+    "verb": "sich freuen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with sich freuen (Präsens).",
+    "example_solutions": [
+      "Ich freuen mich.",
+      "Wir freuen uns."
+    ],
+    "construction_hints": [
+      "mich",
+      "uns",
+      "ich",
+      "wir"
+    ],
+    "english": "I/We sich freuen.",
+    "hint": "sich freuen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich freuen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_054",
+    "level": "A2.1",
+    "verb": "sich freuen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich.",
+    "example_solutions": [
+      "Ich freuen mich."
+    ],
+    "english": "I sich freuen.",
+    "hint": "sich freuen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich freuen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_055",
+    "level": "A2.1",
+    "verb": "sich fühlen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich.",
+    "example_solutions": [
+      "Ich fühlen mich."
+    ],
+    "english": "I sich fühlen.",
+    "hint": "sich fühlen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich fühlen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_056",
+    "level": "A2.1",
+    "verb": "sich fühlen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with sich fühlen (Präsens).",
+    "example_solutions": [
+      "Ich fühlen mich.",
+      "Wir fühlen uns."
+    ],
+    "construction_hints": [
+      "mich",
+      "uns",
+      "ich",
+      "wir"
+    ],
+    "english": "I/We sich fühlen.",
+    "hint": "sich fühlen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich fühlen",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_057",
+    "level": "A2.1",
+    "verb": "sich fühlen",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich.",
+    "example_solutions": [
+      "Ich fühlen mich."
+    ],
+    "english": "I sich fühlen.",
+    "hint": "sich fühlen requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich fühlen"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_058",
+    "level": "A2.1",
+    "verb": "sich entscheiden",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich.",
+    "example_solutions": [
+      "Ich entscheiden mich."
+    ],
+    "english": "I sich entscheiden.",
+    "hint": "sich entscheiden requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich entscheiden"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_059",
+    "level": "A2.1",
+    "verb": "sich entscheiden",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Make a sentence with sich entscheiden (Präsens).",
+    "example_solutions": [
+      "Ich entscheiden mich.",
+      "Wir entscheiden uns."
+    ],
+    "construction_hints": [
+      "mich",
+      "uns",
+      "ich",
+      "wir"
+    ],
+    "english": "I/We sich entscheiden.",
+    "hint": "sich entscheiden requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich entscheiden",
+      "sentence_construction"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_060",
+    "level": "A2.1",
+    "verb": "sich entscheiden",
+    "checklist_item": "reflexiv",
+    "task_type": "fill_blank",
+    "prompt": "Fill in the blank: Ich ___ mich.",
+    "example_solutions": [
+      "Ich entscheiden mich."
+    ],
+    "english": "I sich entscheiden.",
+    "hint": "sich entscheiden requires reflexive pronoun",
+    "tags": [
+      "reflexiv",
+      "sich entscheiden"
+    ]
   }
 ]
