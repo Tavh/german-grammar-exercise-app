@@ -44,6 +44,9 @@ def load_favourites() -> set:
     """Load favourites from session state."""
     if "favourites" not in st.session_state:
         st.session_state.favourites = set(DEFAULT_FAVOURITES)
+    # Ensure it's a set (handle any type issues)
+    if not isinstance(st.session_state.favourites, set):
+        st.session_state.favourites = set(st.session_state.favourites)
     return st.session_state.favourites
 
 
@@ -165,18 +168,21 @@ def main():
                 st.caption("Favourite verbs appear more often in practice. New verbs are still mixed in automatically.")
                 
                 if favourites:
-                    # Display as editable list - subtle removal
+                    # Display as editable list - use container to ensure all items render
                     fav_list = sorted(favourites)
-                    for verb in fav_list:
-                        col1, col2 = st.columns([5, 1])
-                        with col1:
-                            st.write(f"⭐ {verb}")
-                        with col2:
-                            # Subtle removal button (lighter, smaller)
-                            if st.button("×", key=f"remove_{verb}", use_container_width=True, help="Remove from favourites"):
-                                favourites.discard(verb)
-                                save_favourites(favourites)
-                                st.rerun()
+                    # Create a container to force rendering of all items
+                    container = st.container()
+                    with container:
+                        for verb in fav_list:
+                            col1, col2 = st.columns([5, 1])
+                            with col1:
+                                st.markdown(f"⭐ **{verb}**")
+                            with col2:
+                                # Subtle removal button
+                                if st.button("×", key=f"remove_{verb}", use_container_width=True, help="Remove from favourites"):
+                                    favourites.discard(verb)
+                                    save_favourites(favourites)
+                                    st.rerun()
                 else:
                     st.caption("No favourites yet. Click ⭐ on exercises to add verbs.")
             
