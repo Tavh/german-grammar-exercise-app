@@ -220,6 +220,20 @@ If you are tempted to:
 
 This project is about **training correct habits**, not exploring language. All exercises must be pre-written by humans.
 
+## 📋 A2.1 Content Contract
+
+**A2.1 content is FROZEN.** See [`A2_1_CONTENT_CONTRACT.md`](A2_1_CONTENT_CONTRACT.md) for explicit rules.
+
+**Pre-Merge Checklist** (before adding any A2.1 exercise):
+
+1. ✅ Is the verb allowed for this exercise type? (Check frozen verb list)
+2. ✅ Is ambiguity intentional and documented? (If multiple solutions, are they all listed?)
+3. ✅ Is the sentence natural spoken German? (Would you say this aloud?)
+4. ✅ Is this clearly A2.1? (No B1 complexity, no abstract concepts)
+5. ✅ Does this add repetition, not novelty? (Focus on core verbs, not rare ones)
+
+**If any answer is "NO" → do not add the exercise.**
+
 ## 🚀 Installation
 
 ### Step 1: Create Virtual Environment

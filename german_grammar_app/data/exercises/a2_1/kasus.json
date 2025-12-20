@@ -102,31 +102,6 @@
     ]
   },
   {
-    "id": "a2_1_kasus_006",
-    "level": "A2.1",
-    "verb": "schmecken",
-    "checklist_item": "kasus",
-    "task_type": "sentence_construction",
-    "prompt": "Make a sentence with the verb schmecken (Präsens).",
-    "example_solutions": [
-      "Das Essen schmeckt dem Kind.",
-      "Der Kuchen schmeckt mir gut."
-    ],
-    "construction_hints": [
-      "das Essen",
-      "der Kuchen",
-      "mir",
-      "dem Kind"
-    ],
-    "english": "The food/cake tastes good to me/the child.",
-    "hint": "schmecken takes Dativ",
-    "tags": [
-      "dativ",
-      "schmecken",
-      "sentence_construction"
-    ]
-  },
-  {
     "id": "a2_1_kasus_007",
     "level": "A2.1",
     "verb": "kaufen",
