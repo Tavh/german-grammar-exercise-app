@@ -58,9 +58,7 @@ def save_favourites(favourites: set):
 def reset_exercise_state():
     """Reset all per-exercise UI state."""
     st.session_state.user_input = ""
-    st.session_state.show_hint = False
-    st.session_state.show_english = False
-    st.session_state.show_examples = False
+    # Note: hint, translation, and examples are now in expanders (no state needed)
 
 
 @st.cache_data
@@ -262,25 +260,15 @@ def main():
             # Exercise display - show prompt (never the solution)
             st.markdown(f"### {info['prompt']}")
             
-            # Verb info and controls - aligned consistently
+            # Verb info and controls
             verb = info['verb']
             st.caption(f"**Verb:** {verb} | {info['checklist_item']}")
             
-            # Help layer and verb control - aligned in same row
-            col1, col2, col3 = st.columns([2, 2, 1])
+            # Favourite button (only one that needs rerun)
+            col1, col2 = st.columns([5, 1])
             with col1:
-                hint_label = "💡 Hide Hint" if st.session_state.show_hint else "💡 Show Hint"
-                if st.button(hint_label, key=f"hint_{exercise.id}", use_container_width=True):
-                    st.session_state.show_hint = not st.session_state.show_hint
-                    st.rerun()
-            
+                pass  # Space for expanders below
             with col2:
-                trans_label = "🇬🇧 Hide Translation" if st.session_state.show_english else "🇬🇧 Show Translation"
-                if st.button(trans_label, key=f"trans_{exercise.id}", use_container_width=True):
-                    st.session_state.show_english = not st.session_state.show_english
-                    st.rerun()
-            
-            with col3:
                 is_favourite = verb in favourites
                 fav_label = "⭐" if is_favourite else "☆"
                 fav_tooltip = "Remove from favourites" if is_favourite else "Add to favourites"
@@ -292,15 +280,16 @@ def main():
                     save_favourites(favourites)
                     st.rerun()
             
-            if st.session_state.show_hint:
-                st.info(f"**Hint:** {info['hint']}")
+            # Use expanders for hint, translation, and examples (no rerun needed - instant!)
+            with st.expander("💡 Hint", expanded=False):
+                st.info(info['hint'])
             
-            if st.session_state.show_english:
-                st.info(f"**Translation:** {info['english']}")
+            with st.expander("🇬🇧 Translation", expanded=False):
+                st.info(info['english'])
             
             # Show construction hints if available (for sentence_construction tasks)
             if info.get('construction_hints'):
-                with st.expander("🔧 Construction Hints"):
+                with st.expander("🔧 Construction Hints", expanded=False):
                     st.write("**Available hints:**")
                     for hint in info['construction_hints']:
                         st.write(f"• {hint}")
@@ -337,23 +326,17 @@ def main():
                     placeholder="Type your answer here..."
                 )
             
-            # Example solutions (hidden by default - only shown when user clicks)
+            # Example solutions in expander (no rerun needed - instant!)
             st.divider()
-            
-            if st.button("📖 Show Example Solution(s)", type="secondary"):
-                st.session_state.show_examples = not st.session_state.show_examples
-            
-            if st.session_state.show_examples:
-                st.markdown("### Example Solution(s)")
+            with st.expander("✅ Example Solution(s)", expanded=False):
                 st.caption("These are example solutions for comparison. Your answer may also be correct.")
-                
                 example_solutions = info['example_solutions']
                 if len(example_solutions) == 1:
-                    st.code(example_solutions[0], language=None)
+                    st.success(example_solutions[0])
                     st.caption("One example solution")
                 else:
                     for i, sol in enumerate(example_solutions, 1):
-                        st.code(sol, language=None)
+                        st.success(sol)
                         if i < len(example_solutions):
                             st.caption("or")
                     st.caption(f"{len(example_solutions)} example solutions")
