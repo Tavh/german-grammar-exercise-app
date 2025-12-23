@@ -66,6 +66,11 @@
       "items": {"type": "string"},
       "description": "Optional scaffolding hints for sentence_construction tasks. May include: subject hints (du, wir, der Lehrer), noun hints WITHOUT case/article resolution, context hints (at school, yesterday). Must NOT include: full noun phrases with articles, resolved cases, solved verb placement."
     },
+    "structural_hints": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Optional structural role hints for full sentence construction exercises. Describes roles and structure, NOT declined forms. Allowed: Subjekt (e.g., 'ich', 'er', 'der Mann'), Objekt (e.g., 'Film', 'Song', 'Freund'), Ort (e.g., 'zu Hause', 'im Kino'), Zeit (e.g., 'heute', 'morgen'), Kasus (e.g., 'Akkusativ', 'Dativ'), Genus (e.g., 'm', 'f', 'n'), 'mit Adjektiv' / 'ohne Adjektiv', 'trennbares Verb'. NOT allowed: declined articles (einen, dem), declined adjectives (guten, neuen), solved word order."
+    },
     "tags": {
       "type": "array",
       "items": {"type": "string"},

@@ -14,7 +14,7 @@ from german_grammar_app.app.engine import get_exercise_display_info
 
 # Page config
 st.set_page_config(
-    page_title="German Grammar Exercises",
+    page_title="German Declination Exercise",
     page_icon="🇩🇪",
     layout="centered"
 )
@@ -57,8 +57,12 @@ def save_favourites(favourites: set):
 
 def reset_exercise_state():
     """Reset all per-exercise UI state."""
-    st.session_state.user_input = ""
-    # Note: hint, translation, and examples are now in expanders (no state needed)
+    # Clear user input
+    if "user_input" in st.session_state:
+        del st.session_state["user_input"]
+    
+    # Note: Expanders automatically reset because they use exercise.id in their keys
+    # and are set to expanded=False, so each new exercise starts with closed expanders
 
 
 @st.cache_data
@@ -84,8 +88,8 @@ def main():
     # Load favourites
     favourites = load_favourites()
     
-    st.title("🇩🇪 German Grammar Exercises")
-    st.markdown("**Verb-centric practice drill**")
+    st.title("🇩🇪 German Declination Exercise")
+    st.markdown("**Practice articles, adjectives, and noun phrases**")
     
     # Sidebar filters
     with st.sidebar:
@@ -225,7 +229,7 @@ def main():
                 favourite_verbs=favourites,
                 use_practice_mix=True
             )
-            reset_exercise_state()
+            reset_exercise_state()  # Reset all UI state before starting
             st.rerun()
     
     else:
@@ -281,6 +285,7 @@ def main():
                     st.rerun()
             
             # Use expanders for hint, translation, and examples (no rerun needed - instant!)
+            # Expanders automatically reset when moving to new exercise (they're recreated each time)
             with st.expander("💡 Hint", expanded=False):
                 st.info(info['hint'])
             
@@ -293,6 +298,8 @@ def main():
                     st.write("**Available hints:**")
                     for hint in info['construction_hints']:
                         st.write(f"• {hint}")
+            
+            # Structural hints removed - they were confusing rather than helpful
             
             st.divider()
             

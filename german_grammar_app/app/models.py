@@ -52,6 +52,7 @@ class Exercise:
     hint: str
     choices: Optional[List[str]] = None
     construction_hints: Optional[List[str]] = None  # Scaffolding hints (subject, noun hints without cases, context)
+    structural_hints: Optional[List[str]] = None  # Structural role hints (Subjekt, Objekt, Ort, Zeit, Kasus, Genus, etc.) - NEVER declined forms
     tags: Optional[List[str]] = None
     
     def __post_init__(self):

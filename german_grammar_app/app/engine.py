@@ -26,6 +26,7 @@ def get_exercise_display_info(exercise: Exercise) -> dict:
         "prompt": exercise.prompt,  # Task description - never reveals solution
         "choices": exercise.choices,
         "construction_hints": exercise.construction_hints,  # Scaffolding hints for sentence construction
+        "structural_hints": exercise.structural_hints,  # Structural role hints (Subjekt, Objekt, Ort, etc.)
         "english": exercise.english,
         "hint": exercise.hint,
         "level": exercise.level.value,

@@ -82,6 +82,7 @@ def load_exercises_from_file(file_path: Path) -> List[Exercise]:
             hint=item['hint'],
             choices=item.get('choices'),
             construction_hints=item.get('construction_hints'),
+            structural_hints=item.get('structural_hints'),
             tags=item.get('tags')
         )
         exercises.append(exercise)
