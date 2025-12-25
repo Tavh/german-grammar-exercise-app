@@ -176,12 +176,12 @@ def main():
                     container = st.container()
                     with container:
                         for verb in fav_list:
-                            col1, col2 = st.columns([5, 1])
+                            col1, col2 = st.columns([6, 1])
                             with col1:
                                 st.markdown(f"⭐ **{verb}**")
                             with col2:
-                                # Subtle removal button
-                                if st.button("×", key=f"remove_{verb}", use_container_width=True, help="Remove from favourites"):
+                                # Subtle removal button - small and compact
+                                if st.button("×", key=f"remove_{verb}", help="Remove from favourites"):
                                     favourites.discard(verb)
                                     save_favourites(favourites)
                                     st.rerun()
