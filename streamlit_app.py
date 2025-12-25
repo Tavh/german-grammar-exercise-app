@@ -61,8 +61,8 @@ def reset_exercise_state():
     if "user_input" in st.session_state:
         del st.session_state["user_input"]
     
-    # Note: Expanders automatically reset because they use exercise.id in their keys
-    # and are set to expanded=False, so each new exercise starts with closed expanders
+    # Note: Expanders reset automatically because they use exercise.id in their keys.
+    # When exercise.id changes, Streamlit treats them as new widgets and resets to expanded=False.
 
 
 @st.cache_data
@@ -317,17 +317,17 @@ def main():
                     save_favourites(favourites)
                     st.rerun()
             
-            # Use expanders for hint, translation, and examples (no rerun needed - instant!)
-            # Expanders automatically reset when moving to new exercise (they're recreated each time)
-            with st.expander("💡 Hint", expanded=False):
+            # Use expanders for hint, translation, and examples
+            # Keys tied to exercise.id ensure state resets on exercise change
+            with st.expander("💡 Hint", expanded=False, key=f"hint_{exercise.id}"):
                 st.info(info['hint'])
             
-            with st.expander("🇬🇧 Translation", expanded=False):
+            with st.expander("🇬🇧 Translation", expanded=False, key=f"translation_{exercise.id}"):
                 st.info(info['english'])
             
             # Show construction hints if available (for sentence_construction tasks)
             if info.get('construction_hints'):
-                with st.expander("🔧 Construction Hints", expanded=False):
+                with st.expander("🔧 Construction Hints", expanded=False, key=f"construction_{exercise.id}"):
                     st.write("**Available hints:**")
                     for hint in info['construction_hints']:
                         st.write(f"• {hint}")
@@ -366,9 +366,10 @@ def main():
                     placeholder="Type your answer here..."
                 )
             
-            # Example solutions in expander (no rerun needed - instant!)
+            # Example solutions in expander
+            # Key tied to exercise.id ensures state resets on exercise change
             st.divider()
-            with st.expander("✅ Example Solution(s)", expanded=False):
+            with st.expander("✅ Example Solution(s)", expanded=False, key=f"solution_{exercise.id}"):
                 st.caption("These are example solutions for comparison. Your answer may also be correct.")
                 example_solutions = info['example_solutions']
                 if len(example_solutions) == 1:
