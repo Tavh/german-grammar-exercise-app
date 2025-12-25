@@ -226,5 +226,100 @@
       "trennbar",
       "possessiv"
     ]
+  },
+  {
+    "id": "a2_1_trennbar_017",
+    "level": "A2.1",
+    "verb": "anrufen",
+    "checklist_item": "trennbar",
+    "task_type": "sentence_construction",
+    "prompt": "Ich ___ ___ Mutter ___.",
+    "example_solutions": [
+      "Ich rufe die Mutter an."
+    ],
+    "english": "I call the mother.",
+    "hint": "anrufen is separable, takes Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "anrufen",
+      "trennbar",
+      "bestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_trennbar_018",
+    "level": "A2.1",
+    "verb": "abholen",
+    "checklist_item": "trennbar",
+    "task_type": "sentence_construction",
+    "prompt": "Wir ___ ein__ alt__ Freund ___.",
+    "example_solutions": [
+      "Wir holen einen alten Freund ab."
+    ],
+    "english": "We pick up an old friend.",
+    "hint": "abholen is separable, takes Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "abholen",
+      "trennbar",
+      "unbestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_trennbar_019",
+    "level": "A2.1",
+    "verb": "aufmachen",
+    "checklist_item": "trennbar",
+    "task_type": "sentence_construction",
+    "prompt": "Du ___ dein__ neu__ Buch ___.",
+    "example_solutions": [
+      "Du machst dein neues Buch auf."
+    ],
+    "english": "You open your new book.",
+    "hint": "aufmachen is separable, takes Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "aufmachen",
+      "trennbar",
+      "possessiv"
+    ]
+  },
+  {
+    "id": "a2_1_trennbar_020",
+    "level": "A2.1",
+    "verb": "anschauen",
+    "checklist_item": "trennbar",
+    "task_type": "sentence_construction",
+    "prompt": "Sie ___ ein__ rot__ Auto ___.",
+    "example_solutions": [
+      "Sie schaut ein rotes Auto an."
+    ],
+    "english": "She looks at a red car.",
+    "hint": "anschauen is separable, takes Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "anschauen",
+      "trennbar",
+      "unbestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_trennbar_021",
+    "level": "A2.1",
+    "verb": "zumachen",
+    "checklist_item": "trennbar",
+    "task_type": "sentence_construction",
+    "prompt": "Er ___ mein__ groß__ Koffer ___.",
+    "example_solutions": [
+      "Er macht meinen großen Koffer zu."
+    ],
+    "english": "He closes my big suitcase.",
+    "hint": "zumachen is separable, takes Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "zumachen",
+      "trennbar",
+      "possessiv"
+    ]
   }
 ]

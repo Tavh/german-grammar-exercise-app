@@ -246,5 +246,100 @@
       "verabschieden",
       "possessiv"
     ]
+  },
+  {
+    "id": "a2_1_reflexiv_017",
+    "level": "A2.1",
+    "verb": "sich waschen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Ich ___ ___ mit frisch__ Wasser.",
+    "example_solutions": [
+      "Ich wasche mich mit frischem Wasser."
+    ],
+    "english": "I wash myself with fresh water.",
+    "hint": "sich waschen takes mit + Dativ, Präsens",
+    "tags": [
+      "dativ",
+      "reflexiv",
+      "waschen",
+      "nullartikel"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_018",
+    "level": "A2.1",
+    "verb": "sich treffen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Du ___ ___ mit ___ alt__ Freund.",
+    "example_solutions": [
+      "Du triffst dich mit dem alten Freund."
+    ],
+    "english": "You meet with the old friend.",
+    "hint": "sich treffen takes mit + Dativ, Präsens",
+    "tags": [
+      "dativ",
+      "reflexiv",
+      "treffen",
+      "bestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_019",
+    "level": "A2.1",
+    "verb": "sich interessieren",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Er ___ ___ für ein__ neu__ Buch.",
+    "example_solutions": [
+      "Er interessiert sich für ein neues Buch."
+    ],
+    "english": "He is interested in a new book.",
+    "hint": "sich interessieren takes für + Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "reflexiv",
+      "interessieren",
+      "unbestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_020",
+    "level": "A2.1",
+    "verb": "sich setzen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Wir ___ ___ auf ___ groß__ Stuhl.",
+    "example_solutions": [
+      "Wir setzen uns auf den großen Stuhl."
+    ],
+    "english": "We sit down on the big chair.",
+    "hint": "sich setzen takes auf + Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "reflexiv",
+      "setzen",
+      "bestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_021",
+    "level": "A2.1",
+    "verb": "sich freuen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Sie ___ ___ über dein__ neu__ Auto.",
+    "example_solutions": [
+      "Sie freut sich über dein neues Auto."
+    ],
+    "english": "She is happy about your new car.",
+    "hint": "sich freuen takes über + Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "reflexiv",
+      "freuen",
+      "possessiv"
+    ]
   }
 ]

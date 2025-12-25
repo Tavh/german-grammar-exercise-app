@@ -157,20 +157,20 @@
   {
     "id": "a2_1_partizip_ii_013",
     "level": "A2.1",
-    "verb": "machen",
+    "verb": "kaufen",
     "checklist_item": "partizip_ii",
     "task_type": "sentence_construction",
-    "prompt": "Ich ___ ein__ gut__ Arbeit ___.",
+    "prompt": "Ich ___ frisch__ Milch ___.",
     "example_solutions": [
-      "Ich habe eine gute Arbeit gemacht."
+      "Ich habe frische Milch gekauft."
     ],
-    "english": "I have done good work.",
-    "hint": "machen takes Akkusativ, Perfekt with haben, Partizip II: gemacht",
+    "english": "I have bought fresh milk.",
+    "hint": "kaufen takes Akkusativ, Perfekt with haben, Partizip II: gekauft",
     "tags": [
       "akkusativ",
-      "machen",
+      "kaufen",
       "perfekt",
-      "unbestimmt"
+      "nullartikel"
     ]
   },
   {
@@ -228,6 +228,101 @@
       "schreiben",
       "perfekt",
       "unbestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_017",
+    "level": "A2.1",
+    "verb": "sehen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Ich ___ ein__ rot__ Auto ___.",
+    "example_solutions": [
+      "Ich habe ein rotes Auto gesehen."
+    ],
+    "english": "I have seen a red car.",
+    "hint": "sehen takes Akkusativ, Perfekt with haben, Partizip II: gesehen",
+    "tags": [
+      "akkusativ",
+      "sehen",
+      "perfekt",
+      "unbestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_018",
+    "level": "A2.1",
+    "verb": "kaufen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Du ___ ___ alt__ Buch ___.",
+    "example_solutions": [
+      "Du hast das alte Buch gekauft."
+    ],
+    "english": "You have bought the old book.",
+    "hint": "kaufen takes Akkusativ, Perfekt with haben, Partizip II: gekauft",
+    "tags": [
+      "akkusativ",
+      "kaufen",
+      "perfekt",
+      "bestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_019",
+    "level": "A2.1",
+    "verb": "helfen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Wir ___ dein__ Mutter ___.",
+    "example_solutions": [
+      "Wir haben deiner Mutter geholfen."
+    ],
+    "english": "We have helped your mother.",
+    "hint": "helfen takes Dativ, Perfekt with haben, Partizip II: geholfen",
+    "tags": [
+      "dativ",
+      "helfen",
+      "perfekt",
+      "possessiv"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_020",
+    "level": "A2.1",
+    "verb": "treffen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Er ___ ein__ alt__ Freund ___.",
+    "example_solutions": [
+      "Er hat einen alten Freund getroffen."
+    ],
+    "english": "He has met an old friend.",
+    "hint": "treffen takes Akkusativ, Perfekt with haben, Partizip II: getroffen",
+    "tags": [
+      "akkusativ",
+      "treffen",
+      "perfekt",
+      "unbestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_021",
+    "level": "A2.1",
+    "verb": "lesen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Sie ___ mein__ neu__ Buch ___.",
+    "example_solutions": [
+      "Sie hat mein neues Buch gelesen."
+    ],
+    "english": "She has read my new book.",
+    "hint": "lesen takes Akkusativ, Perfekt with haben, Partizip II: gelesen",
+    "tags": [
+      "akkusativ",
+      "lesen",
+      "perfekt",
+      "possessiv"
     ]
   }
 ]
