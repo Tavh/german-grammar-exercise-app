@@ -169,6 +169,27 @@ def main():
                 # Brief explanation (only when expanded)
                 st.caption("Favourite verbs appear more often in practice. New verbs are still mixed in automatically.")
                 
+                # Add CSS to style remove buttons as plain text
+                st.markdown("""
+                    <style>
+                        button[key^="remove_"] {
+                            background: transparent !important;
+                            border: none !important;
+                            box-shadow: none !important;
+                            padding: 0 !important;
+                            margin: 0 !important;
+                            font-size: 1.2em !important;
+                            color: #666 !important;
+                            cursor: pointer !important;
+                            min-width: auto !important;
+                            width: auto !important;
+                        }
+                        button[key^="remove_"]:hover {
+                            color: #ff4444 !important;
+                        }
+                    </style>
+                """, unsafe_allow_html=True)
+                
                 if favourites:
                     # Display as editable list - use container to ensure all items render
                     fav_list = sorted(favourites)
@@ -180,7 +201,7 @@ def main():
                             with col1:
                                 st.markdown(f"⭐ **{verb}**")
                             with col2:
-                                # Subtle removal button - small and compact
+                                # Plain text-style removal button
                                 if st.button("×", key=f"remove_{verb}", help="Remove from favourites"):
                                     favourites.discard(verb)
                                     save_favourites(favourites)
