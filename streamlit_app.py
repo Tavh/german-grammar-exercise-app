@@ -61,11 +61,11 @@ def reset_exercise_state():
     if "user_input" in st.session_state:
         del st.session_state["user_input"]
     
-    # Clear expander state by tracking exercise changes
-    # Streamlit expanders don't support keys, so we track exercise ID to detect changes
-    if "current_exercise_for_expanders" in st.session_state:
-        # Force clear by deleting the tracking key - this signals a new exercise
-        del st.session_state["current_exercise_for_expanders"]
+    # Clear all toggle states for hints/solutions
+    # These are tied to exercise.id, so they'll be recreated fresh for new exercises
+    keys_to_clear = [k for k in st.session_state.keys() if k.startswith(("show_hint_", "show_translation_", "show_construction_", "show_solution_"))]
+    for key in keys_to_clear:
+        del st.session_state[key]
 
 
 @st.cache_data
@@ -320,18 +320,38 @@ def main():
                     save_favourites(favourites)
                     st.rerun()
             
-            # Use expanders for hint, translation, and examples
-            # Expanders are recreated on each rerun, and expanded=False ensures they start closed
-            # The key is that reset_exercise_state() is called before st.rerun() on navigation
-            with st.expander("💡 Hint", expanded=False):
+            # Use button toggles instead of expanders - these reset properly on exercise change
+            # State is tied to exercise.id, so it resets when exercise changes
+            
+            # Hint toggle
+            hint_key = f"show_hint_{exercise.id}"
+            hint_visible = st.session_state.get(hint_key, False)
+            hint_label = "💡 Hide Hint" if hint_visible else "💡 Show Hint"
+            if st.button(hint_label, key=f"btn_hint_{exercise.id}"):
+                st.session_state[hint_key] = not hint_visible
+                st.rerun()
+            if st.session_state.get(hint_key, False):
                 st.info(info['hint'])
             
-            with st.expander("🇬🇧 Translation", expanded=False):
+            # Translation toggle
+            translation_key = f"show_translation_{exercise.id}"
+            translation_visible = st.session_state.get(translation_key, False)
+            translation_label = "🇬🇧 Hide Translation" if translation_visible else "🇬🇧 Show Translation"
+            if st.button(translation_label, key=f"btn_translation_{exercise.id}"):
+                st.session_state[translation_key] = not translation_visible
+                st.rerun()
+            if st.session_state.get(translation_key, False):
                 st.info(info['english'])
             
-            # Show construction hints if available (for sentence_construction tasks)
+            # Construction hints toggle (if available)
             if info.get('construction_hints'):
-                with st.expander("🔧 Construction Hints", expanded=False):
+                construction_key = f"show_construction_{exercise.id}"
+                construction_visible = st.session_state.get(construction_key, False)
+                construction_label = "🔧 Hide Construction Hints" if construction_visible else "🔧 Show Construction Hints"
+                if st.button(construction_label, key=f"btn_construction_{exercise.id}"):
+                    st.session_state[construction_key] = not construction_visible
+                    st.rerun()
+                if st.session_state.get(construction_key, False):
                     st.write("**Available hints:**")
                     for hint in info['construction_hints']:
                         st.write(f"• {hint}")
@@ -370,9 +390,15 @@ def main():
                     placeholder="Type your answer here..."
                 )
             
-            # Example solutions in expander
+            # Example solutions toggle
             st.divider()
-            with st.expander("✅ Example Solution(s)", expanded=False):
+            solution_key = f"show_solution_{exercise.id}"
+            solution_visible = st.session_state.get(solution_key, False)
+            solution_label = "✅ Hide Example Solution(s)" if solution_visible else "✅ Show Example Solution(s)"
+            if st.button(solution_label, key=f"btn_solution_{exercise.id}"):
+                st.session_state[solution_key] = not solution_visible
+                st.rerun()
+            if st.session_state.get(solution_key, False):
                 st.caption("These are example solutions for comparison. Your answer may also be correct.")
                 example_solutions = info['example_solutions']
                 if len(example_solutions) == 1:
