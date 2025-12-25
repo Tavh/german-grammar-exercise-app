@@ -153,5 +153,81 @@
       "perfekt",
       "bestimmt"
     ]
+  },
+  {
+    "id": "a2_1_partizip_ii_013",
+    "level": "A2.1",
+    "verb": "machen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Ich ___ ein__ gut__ Arbeit ___.",
+    "example_solutions": [
+      "Ich habe eine gute Arbeit gemacht."
+    ],
+    "english": "I have done good work.",
+    "hint": "machen takes Akkusativ, Perfekt with haben, Partizip II: gemacht",
+    "tags": [
+      "akkusativ",
+      "machen",
+      "perfekt",
+      "unbestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_014",
+    "level": "A2.1",
+    "verb": "trinken",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Du ___ ___ frisch__ Wasser ___.",
+    "example_solutions": [
+      "Du hast das frische Wasser getrunken."
+    ],
+    "english": "You have drunk the fresh water.",
+    "hint": "trinken takes Akkusativ, Perfekt with haben, Partizip II: getrunken",
+    "tags": [
+      "akkusativ",
+      "trinken",
+      "perfekt",
+      "bestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_015",
+    "level": "A2.1",
+    "verb": "essen",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Ich ___ ein__ Apfel ___.",
+    "example_solutions": [
+      "Ich habe einen Apfel gegessen."
+    ],
+    "english": "I have eaten an apple.",
+    "hint": "essen takes Akkusativ, Perfekt with haben, Partizip II: gegessen",
+    "tags": [
+      "akkusativ",
+      "essen",
+      "perfekt",
+      "unbestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_partizip_ii_016",
+    "level": "A2.1",
+    "verb": "schreiben",
+    "checklist_item": "partizip_ii",
+    "task_type": "sentence_construction",
+    "prompt": "Wir ___ ein__ Brief ___.",
+    "example_solutions": [
+      "Wir haben einen Brief geschrieben."
+    ],
+    "english": "We have written a letter.",
+    "hint": "schreiben takes Akkusativ, Perfekt with haben, Partizip II: geschrieben",
+    "tags": [
+      "akkusativ",
+      "schreiben",
+      "perfekt",
+      "unbestimmt"
+    ]
   }
 ]

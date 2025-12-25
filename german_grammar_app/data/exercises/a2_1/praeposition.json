@@ -188,5 +188,81 @@
       "nach",
       "possessiv"
     ]
+  },
+  {
+    "id": "a2_1_praeposition_013",
+    "level": "A2.1",
+    "verb": "sprechen",
+    "checklist_item": "praeposition",
+    "task_type": "sentence_construction",
+    "prompt": "Ich ___ mit mein__ gut__ Freundin.",
+    "example_solutions": [
+      "Ich spreche mit meiner guten Freundin."
+    ],
+    "english": "I speak with my good friend.",
+    "hint": "sprechen takes mit + Dativ, Präsens",
+    "tags": [
+      "dativ",
+      "sprechen",
+      "mit",
+      "possessiv"
+    ]
+  },
+  {
+    "id": "a2_1_praeposition_014",
+    "level": "A2.1",
+    "verb": "arbeiten",
+    "checklist_item": "praeposition",
+    "task_type": "sentence_construction",
+    "prompt": "Wir ___ in ein__ neu__ Büro.",
+    "example_solutions": [
+      "Wir arbeiten in einem neuen Büro."
+    ],
+    "english": "We work in a new office.",
+    "hint": "arbeiten takes in + Dativ, Präsens",
+    "tags": [
+      "dativ",
+      "arbeiten",
+      "in",
+      "unbestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_praeposition_015",
+    "level": "A2.1",
+    "verb": "wohnen",
+    "checklist_item": "praeposition",
+    "task_type": "sentence_construction",
+    "prompt": "Er ___ in ein__ groß__ Stadt.",
+    "example_solutions": [
+      "Er wohnt in einer großen Stadt."
+    ],
+    "english": "He lives in a big city.",
+    "hint": "wohnen takes in + Dativ, Präsens",
+    "tags": [
+      "dativ",
+      "wohnen",
+      "in",
+      "unbestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_praeposition_016",
+    "level": "A2.1",
+    "verb": "schreiben",
+    "checklist_item": "praeposition",
+    "task_type": "sentence_construction",
+    "prompt": "Du ___ an dein__ Mutter.",
+    "example_solutions": [
+      "Du schreibst an deine Mutter."
+    ],
+    "english": "You write to your mother.",
+    "hint": "schreiben takes an + Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "schreiben",
+      "an",
+      "possessiv"
+    ]
   }
 ]

@@ -72,60 +72,6 @@
     ]
   },
   {
-    "id": "a2_1_kasus_007",
-    "level": "A2.1",
-    "verb": "finden",
-    "checklist_item": "kasus",
-    "task_type": "sentence_construction",
-    "prompt": "Er ___ kein__ gut__ Film.",
-    "example_solutions": [
-      "Er findet keinen guten Film."
-    ],
-    "english": "He finds no good film.",
-    "hint": "finden takes Akkusativ, Präsens",
-    "tags": [
-      "akkusativ",
-      "finden",
-      "kein"
-    ]
-  },
-  {
-    "id": "a2_1_kasus_009",
-    "level": "A2.1",
-    "verb": "sehen",
-    "checklist_item": "kasus",
-    "task_type": "sentence_construction",
-    "prompt": "Ich ___ ___ gut__ Film.",
-    "example_solutions": [
-      "Ich sehe den guten Film."
-    ],
-    "english": "I see the good film.",
-    "hint": "sehen takes Akkusativ, bestimmter Artikel, Präsens",
-    "tags": [
-      "akkusativ",
-      "sehen",
-      "bestimmt"
-    ]
-  },
-  {
-    "id": "a2_1_kasus_010",
-    "level": "A2.1",
-    "verb": "helfen",
-    "checklist_item": "kasus",
-    "task_type": "sentence_construction",
-    "prompt": "Wir ___ ___ gut__ Freund.",
-    "example_solutions": [
-      "Wir helfen dem guten Freund."
-    ],
-    "english": "We help the good friend.",
-    "hint": "helfen takes Dativ, bestimmter Artikel, Präsens",
-    "tags": [
-      "dativ",
-      "helfen",
-      "bestimmt"
-    ]
-  },
-  {
     "id": "a2_1_kasus_011",
     "level": "A2.1",
     "verb": "kaufen",
@@ -161,6 +107,152 @@
       "helfen",
       "plural",
       "nullartikel"
+    ]
+  },
+  {
+    "id": "a2_1_kasus_013",
+    "level": "A2.1",
+    "verb": "kaufen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Ich ___ frisch__ Brot.",
+    "example_solutions": [
+      "Ich kaufe frisches Brot."
+    ],
+    "english": "I buy fresh bread.",
+    "hint": "kaufen takes Akkusativ, nullartikel, Präsens",
+    "tags": [
+      "akkusativ",
+      "kaufen",
+      "nullartikel"
+    ]
+  },
+  {
+    "id": "a2_1_kasus_014",
+    "level": "A2.1",
+    "verb": "lesen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Du ___ ___ neu__ Buch.",
+    "example_solutions": [
+      "Du liest das neue Buch."
+    ],
+    "english": "You read the new book.",
+    "hint": "lesen takes Akkusativ, bestimmter Artikel, Präsens",
+    "tags": [
+      "akkusativ",
+      "lesen",
+      "bestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_kasus_015",
+    "level": "A2.1",
+    "verb": "geben",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Er ___ sein__ Freund ein__ Buch.",
+    "example_solutions": [
+      "Er gibt seinem Freund ein Buch."
+    ],
+    "english": "He gives his friend a book.",
+    "hint": "geben takes Dativ + Akkusativ, Präsens",
+    "tags": [
+      "dativ",
+      "geben",
+      "possessiv",
+      "unbestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_kasus_016",
+    "level": "A2.1",
+    "verb": "sehen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Ich ___ ein__ rot__ Auto.",
+    "example_solutions": [
+      "Ich sehe ein rotes Auto."
+    ],
+    "english": "I see a red car.",
+    "hint": "sehen takes Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "sehen",
+      "unbestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_kasus_017",
+    "level": "A2.1",
+    "verb": "kaufen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Du ___ ein__ Apfel.",
+    "example_solutions": [
+      "Du kaufst einen Apfel."
+    ],
+    "english": "You buy an apple.",
+    "hint": "kaufen takes Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "kaufen",
+      "unbestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_kasus_018",
+    "level": "A2.1",
+    "verb": "treffen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Wir ___ mein__ Kollege.",
+    "example_solutions": [
+      "Wir treffen meinen Kollegen."
+    ],
+    "english": "We meet my colleague.",
+    "hint": "treffen takes Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "treffen",
+      "possessiv"
+    ]
+  },
+  {
+    "id": "a2_1_kasus_019",
+    "level": "A2.1",
+    "verb": "nehmen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Sie ___ ___ groß__ Tasche.",
+    "example_solutions": [
+      "Sie nimmt die große Tasche."
+    ],
+    "english": "She takes the big bag.",
+    "hint": "nehmen takes Akkusativ, bestimmter Artikel, Präsens",
+    "tags": [
+      "akkusativ",
+      "nehmen",
+      "bestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_kasus_020",
+    "level": "A2.1",
+    "verb": "geben",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Ich ___ mein__ Mutter ein__ Blume.",
+    "example_solutions": [
+      "Ich gebe meiner Mutter eine Blume."
+    ],
+    "english": "I give my mother a flower.",
+    "hint": "geben takes Dativ + Akkusativ, Präsens",
+    "tags": [
+      "dativ",
+      "geben",
+      "possessiv",
+      "unbestimmt"
     ]
   }
 ]

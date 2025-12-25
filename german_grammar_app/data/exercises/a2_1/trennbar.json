@@ -150,5 +150,81 @@
       "trennbar",
       "unbestimmt"
     ]
+  },
+  {
+    "id": "a2_1_trennbar_013",
+    "level": "A2.1",
+    "verb": "abholen",
+    "checklist_item": "trennbar",
+    "task_type": "sentence_construction",
+    "prompt": "Ich ___ mein__ Freund ___.",
+    "example_solutions": [
+      "Ich hole meinen Freund ab."
+    ],
+    "english": "I pick up my friend.",
+    "hint": "abholen is separable, takes Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "abholen",
+      "trennbar",
+      "possessiv"
+    ]
+  },
+  {
+    "id": "a2_1_trennbar_014",
+    "level": "A2.1",
+    "verb": "aufmachen",
+    "checklist_item": "trennbar",
+    "task_type": "sentence_construction",
+    "prompt": "Du ___ ___ neu__ Tür ___.",
+    "example_solutions": [
+      "Du machst die neue Tür auf."
+    ],
+    "english": "You open the new door.",
+    "hint": "aufmachen is separable, takes Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "aufmachen",
+      "trennbar",
+      "bestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_trennbar_015",
+    "level": "A2.1",
+    "verb": "zumachen",
+    "checklist_item": "trennbar",
+    "task_type": "sentence_construction",
+    "prompt": "Ich ___ ___ Fenster ___.",
+    "example_solutions": [
+      "Ich mache das Fenster zu."
+    ],
+    "english": "I close the window.",
+    "hint": "zumachen is separable, takes Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "zumachen",
+      "trennbar",
+      "bestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_trennbar_016",
+    "level": "A2.1",
+    "verb": "mitnehmen",
+    "checklist_item": "trennbar",
+    "task_type": "sentence_construction",
+    "prompt": "Du ___ dein__ Tasche ___.",
+    "example_solutions": [
+      "Du nimmst deine Tasche mit."
+    ],
+    "english": "You take your bag along.",
+    "hint": "mitnehmen is separable, takes Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "mitnehmen",
+      "trennbar",
+      "possessiv"
+    ]
   }
 ]
