@@ -169,23 +169,35 @@ def main():
                 # Brief explanation (only when expanded)
                 st.caption("Favourite verbs appear more often in practice. New verbs are still mixed in automatically.")
                 
-                # Add CSS to style remove buttons as plain text
+                # Add CSS to style remove buttons as subtle, calm controls
                 st.markdown("""
                     <style>
+                        /* Subtle remove button - very low visual weight, calm appearance */
                         button[key^="remove_"] {
                             background: transparent !important;
                             border: none !important;
                             box-shadow: none !important;
-                            padding: 0 !important;
+                            padding: 2px 6px !important;
                             margin: 0 !important;
-                            font-size: 1.2em !important;
-                            color: #666 !important;
+                            font-size: 0.85em !important;
+                            color: #bbb !important;
+                            opacity: 0.35 !important;
                             cursor: pointer !important;
                             min-width: auto !important;
                             width: auto !important;
+                            height: auto !important;
+                            line-height: 1.2 !important;
+                            transition: opacity 0.2s ease, color 0.2s ease, background 0.2s ease !important;
+                            font-weight: 300 !important;
+                            vertical-align: middle !important;
                         }
+                        
+                        /* Show more prominently on hover - gentle reveal */
                         button[key^="remove_"]:hover {
-                            color: #ff4444 !important;
+                            opacity: 1 !important;
+                            color: #777 !important;
+                            background: #f5f5f5 !important;
+                            border-radius: 3px !important;
                         }
                     </style>
                 """, unsafe_allow_html=True)
@@ -197,11 +209,11 @@ def main():
                     container = st.container()
                     with container:
                         for verb in fav_list:
-                            col1, col2 = st.columns([6, 1])
+                            col1, col2 = st.columns([7, 1])
                             with col1:
                                 st.markdown(f"⭐ **{verb}**")
                             with col2:
-                                # Plain text-style removal button
+                                # Subtle removal control - appears faint, becomes visible on hover
                                 if st.button("×", key=f"remove_{verb}", help="Remove from favourites"):
                                     favourites.discard(verb)
                                     save_favourites(favourites)
