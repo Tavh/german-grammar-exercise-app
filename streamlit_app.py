@@ -318,16 +318,16 @@ def main():
                     st.rerun()
             
             # Use expanders for hint, translation, and examples
-            # Keys tied to exercise.id ensure state resets on exercise change
-            with st.expander("💡 Hint", expanded=False, key=f"hint_{exercise.id}"):
+            # Keys tied to current exercise index ensure state resets on exercise change
+            with st.expander("💡 Hint", expanded=False, key=f"hint_{current}"):
                 st.info(info['hint'])
             
-            with st.expander("🇬🇧 Translation", expanded=False, key=f"translation_{exercise.id}"):
+            with st.expander("🇬🇧 Translation", expanded=False, key=f"translation_{current}"):
                 st.info(info['english'])
             
             # Show construction hints if available (for sentence_construction tasks)
             if info.get('construction_hints'):
-                with st.expander("🔧 Construction Hints", expanded=False, key=f"construction_{exercise.id}"):
+                with st.expander("🔧 Construction Hints", expanded=False, key=f"construction_{current}"):
                     st.write("**Available hints:**")
                     for hint in info['construction_hints']:
                         st.write(f"• {hint}")
@@ -367,9 +367,9 @@ def main():
                 )
             
             # Example solutions in expander
-            # Key tied to exercise.id ensures state resets on exercise change
+            # Key tied to current exercise index ensures state resets on exercise change
             st.divider()
-            with st.expander("✅ Example Solution(s)", expanded=False, key=f"solution_{exercise.id}"):
+            with st.expander("✅ Example Solution(s)", expanded=False, key=f"solution_{current}"):
                 st.caption("These are example solutions for comparison. Your answer may also be correct.")
                 example_solutions = info['example_solutions']
                 if len(example_solutions) == 1:
