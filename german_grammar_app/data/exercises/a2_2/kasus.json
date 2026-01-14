@@ -1,0 +1,477 @@
+[
+  {
+    "id": "a2_2_kasus_001",
+    "level": "A2.2",
+    "verb": "zeigen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Susanne ___ ihr__ Freundin ihr__ neu__ Wohnung. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Susanne zeigt ihrer Freundin ihre neue Wohnung. --> Sie zeigt sie ihr."
+    ],
+    "english": "Susanne shows her friend her new apartment. --> She shows it to her.",
+    "hint": "zeigen takes Dativ and Akkusativ. First decline: 'ihrer Freundin' (Dat.), 'ihre neue Wohnung' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "zeigen",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_002",
+    "level": "A2.2",
+    "verb": "geben",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Der Lehrer ___ ___ Schülern ___ Hausaufgaben. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Der Lehrer gibt den Schülern die Hausaufgaben. --> Er gibt sie ihnen."
+    ],
+    "english": "The teacher gives the students the homework. --> He gives it to them.",
+    "hint": "geben takes Dativ and Akkusativ. First decline: 'den Schülern' (Dat.), 'die Hausaufgaben' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "geben",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_003",
+    "level": "A2.2",
+    "verb": "schenken",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Wir ___ unser__ Mutter ein__ schön__ Buch. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Wir schenken unserer Mutter ein schönes Buch. --> Wir schenken es ihr."
+    ],
+    "english": "We give our mother a beautiful book as a gift. --> We give it to her.",
+    "hint": "schenken takes Dativ and Akkusativ. First decline: 'unserer Mutter' (Dat.), 'ein schönes Buch' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "schenken",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_004",
+    "level": "A2.2",
+    "verb": "kaufen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Er ___ sein__ Freundin Blumen. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Er kauft seiner Freundin Blumen. --> Er kauft sie ihr."
+    ],
+    "english": "He buys his girlfriend flowers. --> He buys them for her.",
+    "hint": "kaufen takes Dativ and Akkusativ. First decline: 'seiner Freundin' (Dat.), 'Blumen' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "kaufen",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_005",
+    "level": "A2.2",
+    "verb": "erklären",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Der Lehrer ___ ___ Schülern ___ Grammatik. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Der Lehrer erklärt den Schülern die Grammatik. --> Er erklärt sie ihnen."
+    ],
+    "english": "The teacher explains the grammar to the students. --> He explains it to them.",
+    "hint": "erklären takes Dativ and Akkusativ. First decline: 'den Schülern' (Dat.), 'die Grammatik' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "erklären",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_006",
+    "level": "A2.2",
+    "verb": "sagen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Sie ___ ihr__ Bruder ___ Wahrheit. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Sie sagt ihrem Bruder die Wahrheit. --> Sie sagt sie ihm."
+    ],
+    "english": "She tells her brother the truth. --> She tells it to him.",
+    "hint": "sagen takes Dativ and Akkusativ. First decline: 'ihrem Bruder' (Dat.), 'die Wahrheit' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "sagen",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_007",
+    "level": "A2.2",
+    "verb": "bringen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Wir ___ unser__ Oma ein__ Kuchen. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Wir bringen unserer Oma einen Kuchen. --> Wir bringen ihn ihr."
+    ],
+    "english": "We bring our grandmother a cake. --> We bring it to her.",
+    "hint": "bringen takes Dativ and Akkusativ. First decline: 'unserer Oma' (Dat.), 'einen Kuchen' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "bringen",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_008",
+    "level": "A2.2",
+    "verb": "schreiben",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Er ___ sein__ Mutter ein__ E-Mail. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Er schreibt seiner Mutter eine E-Mail. --> Er schreibt sie ihr."
+    ],
+    "english": "He writes his mother an email. --> He writes it to her.",
+    "hint": "schreiben takes Dativ and Akkusativ. First decline: 'seiner Mutter' (Dat.), 'eine E-Mail' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "schreiben",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_009",
+    "level": "A2.2",
+    "verb": "senden",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Ich ___ mein__ Freund ein__ Brief. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Ich sende meinem Freund einen Brief. --> Ich sende ihn ihm."
+    ],
+    "english": "I send my friend a letter. --> I send it to him.",
+    "hint": "senden takes Dativ and Akkusativ. First decline: 'meinem Freund' (Dat.), 'einen Brief' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "senden",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_010",
+    "level": "A2.2",
+    "verb": "schicken",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Sie ___ ihr__ Schwester ein__ Paket. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Sie schickt ihrer Schwester ein Paket. --> Sie schickt es ihr."
+    ],
+    "english": "She sends her sister a package. --> She sends it to her.",
+    "hint": "schicken takes Dativ and Akkusativ. First decline: 'ihrer Schwester' (Dat.), 'ein Paket' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "schicken",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_011",
+    "level": "A2.2",
+    "verb": "leihen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Er ___ sein__ Freund sein__ Auto. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Er leiht seinem Freund sein Auto. --> Er leiht es ihm."
+    ],
+    "english": "He lends his friend his car. --> He lends it to him.",
+    "hint": "leihen takes Dativ and Akkusativ. First decline: 'seinem Freund' (Dat.), 'sein Auto' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "leihen",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_012",
+    "level": "A2.2",
+    "verb": "versprechen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Ich ___ mein__ Tochter ein__ Geschenk. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Ich verspreche meiner Tochter ein Geschenk. --> Ich verspreche es ihr."
+    ],
+    "english": "I promise my daughter a gift. --> I promise it to her.",
+    "hint": "versprechen takes Dativ and Akkusativ. First decline: 'meiner Tochter' (Dat.), 'ein Geschenk' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "versprechen",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_013",
+    "level": "A2.2",
+    "verb": "empfehlen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Der Arzt ___ sein__ Patientin ein__ Medikament. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Der Arzt empfiehlt seiner Patientin ein Medikament. --> Er empfiehlt es ihr."
+    ],
+    "english": "The doctor recommends a medication to his patient. --> He recommends it to her.",
+    "hint": "empfehlen takes Dativ and Akkusativ. First decline: 'seiner Patientin' (Dat.), 'ein Medikament' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "empfehlen",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_014",
+    "level": "A2.2",
+    "verb": "wünschen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Wir ___ unser__ Freundin viel__ Glück. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Wir wünschen unserer Freundin viel Glück. --> Wir wünschen es ihr."
+    ],
+    "english": "We wish our friend much luck. --> We wish it to her.",
+    "hint": "wünschen takes Dativ and Akkusativ. First decline: 'unserer Freundin' (Dat.), 'viel Glück' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "wünschen",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_015",
+    "level": "A2.2",
+    "verb": "wiederholen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Der Lehrer ___ ___ Schülern ___ Regel. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Der Lehrer wiederholt den Schülern die Regel. --> Er wiederholt sie ihnen."
+    ],
+    "english": "The teacher repeats the rule to the students. --> He repeats it to them.",
+    "hint": "wiederholen takes Dativ and Akkusativ. First decline: 'den Schülern' (Dat.), 'die Regel' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "wiederholen",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_016",
+    "level": "A2.2",
+    "verb": "vorstellen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Ich ___ mein__ Freund mein__ neue Kollegin. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Ich stelle meinem Freund meine neue Kollegin vor. --> Ich stelle sie ihm vor."
+    ],
+    "english": "I introduce my new colleague to my friend. --> I introduce her to him.",
+    "hint": "vorstellen takes Dativ and Akkusativ. First decline: 'meinem Freund' (Dat.), 'meine neue Kollegin' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "vorstellen",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_017",
+    "level": "A2.2",
+    "verb": "anbieten",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Er ___ sein__ Gästen ein__ Getränk. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Er bietet seinen Gästen ein Getränk an. --> Er bietet es ihnen an."
+    ],
+    "english": "He offers his guests a drink. --> He offers it to them.",
+    "hint": "anbieten takes Dativ and Akkusativ. First decline: 'seinen Gästen' (Dat.), 'ein Getränk' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "anbieten",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_018",
+    "level": "A2.2",
+    "verb": "mitteilen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Sie ___ ihr__ Chef ___ Neuigkeit. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Sie teilt ihrem Chef die Neuigkeit mit. --> Sie teilt sie ihm mit."
+    ],
+    "english": "She informs her boss of the news. --> She informs him of it.",
+    "hint": "mitteilen takes Dativ and Akkusativ. First decline: 'ihrem Chef' (Dat.), 'die Neuigkeit' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "mitteilen",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_019",
+    "level": "A2.2",
+    "verb": "übergeben",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Der Polizist ___ ___ Dieb ___ Geld. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Der Polizist übergibt dem Dieb das Geld. --> Er übergibt es ihm."
+    ],
+    "english": "The policeman hands over the money to the thief. --> He hands it over to him.",
+    "hint": "übergeben takes Dativ and Akkusativ. First decline: 'dem Dieb' (Dat.), 'das Geld' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "übergeben",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_020",
+    "level": "A2.2",
+    "verb": "verschreiben",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Der Arzt ___ sein__ Patient ein__ Rezept. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Der Arzt verschreibt seinem Patienten ein Rezept. --> Er verschreibt es ihm."
+    ],
+    "english": "The doctor prescribes a prescription to his patient. --> He prescribes it to him.",
+    "hint": "verschreiben takes Dativ and Akkusativ. First decline: 'seinem Patienten' (Dat.), 'ein Rezept' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "verschreiben",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_021",
+    "level": "A2.2",
+    "verb": "vorlesen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Die Mutter ___ ihr__ Kind ein__ Geschichte. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Die Mutter liest ihrem Kind eine Geschichte vor. --> Sie liest sie ihm vor."
+    ],
+    "english": "The mother reads a story to her child. --> She reads it to him/her.",
+    "hint": "vorlesen takes Dativ and Akkusativ. First decline: 'ihrem Kind' (Dat.), 'eine Geschichte' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "vorlesen",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_022",
+    "level": "A2.2",
+    "verb": "vorwerfen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Sie ___ ihr__ Freund ___ Fehler. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Sie wirft ihrem Freund den Fehler vor. --> Sie wirft ihn ihm vor."
+    ],
+    "english": "She reproaches her friend for the mistake. --> She reproaches him for it.",
+    "hint": "vorwerfen takes Dativ and Akkusativ. First decline: 'ihrem Freund' (Dat.), 'den Fehler' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "vorwerfen",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_023",
+    "level": "A2.2",
+    "verb": "wegnehmen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Der Dieb ___ ___ Mann ___ Brieftasche. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Der Dieb nimmt dem Mann die Brieftasche weg. --> Er nimmt sie ihm weg."
+    ],
+    "english": "The thief takes the wallet from the man. --> He takes it from him.",
+    "hint": "wegnehmen takes Dativ and Akkusativ. First decline: 'dem Mann' (Dat.), 'die Brieftasche' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "wegnehmen",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_024",
+    "level": "A2.2",
+    "verb": "zustehen",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Das Recht ___ ___ Menschen zu. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Das Recht steht den Menschen zu. --> Es steht ihnen zu."
+    ],
+    "english": "The right belongs to the people. --> It belongs to them.",
+    "hint": "zustehen takes Dativ and Akkusativ. First decline: 'den Menschen' (Dat.), 'Das Recht' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "zustehen",
+      "personalpronomen"
+    ]
+  },
+  {
+    "id": "a2_2_kasus_025",
+    "level": "A2.2",
+    "verb": "zurückgeben",
+    "checklist_item": "kasus",
+    "task_type": "sentence_construction",
+    "prompt": "Ich ___ mein__ Freund sein__ Buch zurück. Ersetze die Nomen durch Personalpronomen.",
+    "example_solutions": [
+      "Ich gebe meinem Freund sein Buch zurück. --> Ich gebe es ihm zurück."
+    ],
+    "english": "I give my friend his book back. --> I give it back to him.",
+    "hint": "zurückgeben takes Dativ and Akkusativ. First decline: 'meinem Freund' (Dat.), 'sein Buch' (Akk.). Then replace with pronouns.",
+    "tags": [
+      "akkusativ",
+      "dativ",
+      "zurückgeben",
+      "personalpronomen"
+    ]
+  }
+]
