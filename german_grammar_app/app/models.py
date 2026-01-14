@@ -14,6 +14,20 @@ class Level(str, Enum):
     A2_2 = "A2.2"
     B1_1 = "B1.1"
     B1_2 = "B1.2"
+    
+    def get_previous_levels(self) -> List['Level']:
+        """
+        Get all previous levels for this level.
+        
+        Returns:
+            List of previous levels in order (A2.1, A2.2, B1.1, B1.2)
+        """
+        level_order = [Level.A2_1, Level.A2_2, Level.B1_1, Level.B1_2]
+        try:
+            current_index = level_order.index(self)
+            return level_order[:current_index]
+        except ValueError:
+            return []
 
 
 class ChecklistItem(str, Enum):

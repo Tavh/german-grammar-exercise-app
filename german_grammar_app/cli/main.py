@@ -28,6 +28,7 @@ DEFAULT_SCHEMA_PATH = DEFAULT_DATA_DIR / "schema" / "exercise.schema.json"
 def list(
     level: Optional[str] = typer.Option(None, "--level", "-l", help="Filter by level (A2.1, A2.2, B1.1, B1.2)"),
     checklist: Optional[str] = typer.Option(None, "--checklist", "-c", help="Filter by checklist item (kasus, trennbar, praeposition, reflexiv, partizip_ii)"),
+    include_previous: bool = typer.Option(False, "--include-previous", "-p", help="Include exercises from previous levels"),
     data_dir: Path = typer.Option(DEFAULT_DATA_DIR, "--data-dir", help="Path to data directory"),
 ):
     """List available exercises with optional filters."""
@@ -62,7 +63,7 @@ def list(
                 console.print(f"[red]Invalid checklist item: {checklist}[/red]")
                 raise typer.Exit(1)
         
-        exercises = get_exercises_by_filters(all_exercises, level_enum, checklist_enum)
+        exercises = get_exercises_by_filters(all_exercises, level_enum, checklist_enum, include_previous_levels=include_previous)
         
         # Display results
         if not exercises:
@@ -97,6 +98,7 @@ def list(
 def practice(
     level: Optional[str] = typer.Option(None, "--level", "-l", help="Filter by level"),
     checklist: Optional[str] = typer.Option(None, "--checklist", "-c", help="Filter by checklist item"),
+    include_previous: bool = typer.Option(False, "--include-previous", "-p", help="Include exercises from previous levels"),
     timed: bool = typer.Option(False, "--timed", "-t", help="Run timed practice session"),
     data_dir: Path = typer.Option(DEFAULT_DATA_DIR, "--data-dir", help="Path to data directory"),
 ):
@@ -131,7 +133,7 @@ def practice(
                 console.print(f"[red]Invalid checklist item: {checklist}[/red]")
                 raise typer.Exit(1)
         
-        exercises = get_exercises_by_filters(all_exercises, level_enum, checklist_enum)
+        exercises = get_exercises_by_filters(all_exercises, level_enum, checklist_enum, include_previous_levels=include_previous)
         
         if not exercises:
             console.print("[yellow]No exercises found matching filters.[/yellow]")
@@ -155,7 +157,7 @@ def practice(
             console.print(f"[yellow]Verb:[/yellow] {info['verb']}")
             console.print(f"[yellow]Checklist:[/yellow] {info['checklist_item']}")
             console.print(f"[yellow]Task:[/yellow] {info['task_type']}")
-            console.print(f"\n[bold]{info['sentence']}[/bold]")
+            console.print(f"\n[bold]{info['prompt']}[/bold]")
             
             if info['choices']:
                 console.print("\n[dim]Choices:[/dim]")
@@ -236,6 +238,7 @@ def practice(
 def stats(
     level: Optional[str] = typer.Option(None, "--level", "-l", help="Filter by level"),
     checklist: Optional[str] = typer.Option(None, "--checklist", "-c", help="Filter by checklist item"),
+    include_previous: bool = typer.Option(False, "--include-previous", "-p", help="Include exercises from previous levels"),
     data_dir: Path = typer.Option(DEFAULT_DATA_DIR, "--data-dir", help="Path to data directory"),
 ):
     """Show basic statistics about available exercises."""
@@ -261,7 +264,7 @@ def stats(
                 console.print(f"[red]Invalid checklist item: {checklist}[/red]")
                 raise typer.Exit(1)
         
-        exercises = get_exercises_by_filters(all_exercises, level_enum, checklist_enum)
+        exercises = get_exercises_by_filters(all_exercises, level_enum, checklist_enum, include_previous_levels=include_previous)
         
         if not exercises:
             console.print("[yellow]No exercises found.[/yellow]")

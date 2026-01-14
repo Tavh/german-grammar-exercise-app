@@ -180,7 +180,8 @@ def get_exercises_by_filters(
     all_exercises: Dict[str, List[Exercise]],
     level: Level = None,
     checklist_item: ChecklistItem = None,
-    verbs: List[str] = None
+    verbs: List[str] = None,
+    include_previous_levels: bool = False
 ) -> List[Exercise]:
     """
     Filter exercises by level, checklist item, and/or verbs.
@@ -190,19 +191,37 @@ def get_exercises_by_filters(
         level: Optional level filter (Level enum)
         checklist_item: Optional checklist item filter (ChecklistItem enum)
         verbs: Optional list of verbs to filter by
+        include_previous_levels: If True and level is specified, include exercises from previous levels
         
     Returns:
         Filtered list of exercises
     """
     filtered = []
     
+    # Determine which levels to include
+    levels_to_include = set()
+    if level:
+        levels_to_include.add(level.value)
+        if include_previous_levels:
+            previous_levels = level.get_previous_levels()
+            levels_to_include.update(prev.value for prev in previous_levels)
+    
     for key, exercises in all_exercises.items():
         level_part, checklist_part = key.split('/')
         
-        # Apply filters
-        # level_part is the Level enum value (e.g., "A2.1")
-        if level and level.value != level_part:
-            continue
+        # Apply level filter
+        if level:
+            if include_previous_levels:
+                if level_part not in levels_to_include:
+                    continue
+            else:
+                if level.value != level_part:
+                    continue
+        elif not level and include_previous_levels:
+            # If include_previous_levels is True but no level specified, ignore it
+            pass
+        
+        # Apply checklist item filter
         if checklist_item and checklist_item.value != checklist_part:
             continue
         
