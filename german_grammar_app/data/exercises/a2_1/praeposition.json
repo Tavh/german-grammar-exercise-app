@@ -188,5 +188,176 @@
       "nach",
       "possessiv"
     ]
+  },
+  {
+    "id": "a2_1_praeposition_013",
+    "level": "A2.1",
+    "verb": "sprechen",
+    "checklist_item": "praeposition",
+    "task_type": "sentence_construction",
+    "prompt": "Ich ___ mit mein__ gut__ Freundin.",
+    "example_solutions": [
+      "Ich spreche mit meiner guten Freundin."
+    ],
+    "english": "I speak with my good friend.",
+    "hint": "sprechen takes mit + Dativ, Präsens",
+    "tags": [
+      "dativ",
+      "sprechen",
+      "mit",
+      "possessiv"
+    ]
+  },
+  {
+    "id": "a2_1_praeposition_014",
+    "level": "A2.1",
+    "verb": "arbeiten",
+    "checklist_item": "praeposition",
+    "task_type": "sentence_construction",
+    "prompt": "Wir ___ in ein__ neu__ Büro.",
+    "example_solutions": [
+      "Wir arbeiten in einem neuen Büro."
+    ],
+    "english": "We work in a new office.",
+    "hint": "arbeiten takes in + Dativ, Präsens",
+    "tags": [
+      "dativ",
+      "arbeiten",
+      "in",
+      "unbestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_praeposition_015",
+    "level": "A2.1",
+    "verb": "wohnen",
+    "checklist_item": "praeposition",
+    "task_type": "sentence_construction",
+    "prompt": "Er ___ in ein__ groß__ Stadt.",
+    "example_solutions": [
+      "Er wohnt in einer großen Stadt."
+    ],
+    "english": "He lives in a big city.",
+    "hint": "wohnen takes in + Dativ, Präsens",
+    "tags": [
+      "dativ",
+      "wohnen",
+      "in",
+      "unbestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_praeposition_016",
+    "level": "A2.1",
+    "verb": "schreiben",
+    "checklist_item": "praeposition",
+    "task_type": "sentence_construction",
+    "prompt": "Du ___ an dein__ Mutter.",
+    "example_solutions": [
+      "Du schreibst an deine Mutter."
+    ],
+    "english": "You write to your mother.",
+    "hint": "schreiben takes an + Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "schreiben",
+      "an",
+      "possessiv"
+    ]
+  },
+  {
+    "id": "a2_1_praeposition_017",
+    "level": "A2.1",
+    "verb": "kommen",
+    "checklist_item": "praeposition",
+    "task_type": "sentence_construction",
+    "prompt": "Ich ___ zu ___ alt__ Haus.",
+    "example_solutions": [
+      "Ich komme zu dem alten Haus."
+    ],
+    "english": "I come to the old house.",
+    "hint": "kommen takes zu + Dativ, Präsens",
+    "tags": [
+      "dativ",
+      "kommen",
+      "zu",
+      "bestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_praeposition_018",
+    "level": "A2.1",
+    "verb": "warten",
+    "checklist_item": "praeposition",
+    "task_type": "sentence_construction",
+    "prompt": "Wir ___ auf dein__ Freund.",
+    "example_solutions": [
+      "Wir warten auf deinen Freund."
+    ],
+    "english": "We wait for your friend.",
+    "hint": "warten takes auf + Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "warten",
+      "auf",
+      "possessiv"
+    ]
+  },
+  {
+    "id": "a2_1_praeposition_019",
+    "level": "A2.1",
+    "verb": "denken",
+    "checklist_item": "praeposition",
+    "task_type": "sentence_construction",
+    "prompt": "Du ___ an ein__ neu__ Auto.",
+    "example_solutions": [
+      "Du denkst an ein neues Auto."
+    ],
+    "english": "You think about a new car.",
+    "hint": "denken takes an + Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "denken",
+      "an",
+      "unbestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_praeposition_020",
+    "level": "A2.1",
+    "verb": "suchen",
+    "checklist_item": "praeposition",
+    "task_type": "sentence_construction",
+    "prompt": "Er ___ nach ___ alt__ Buch.",
+    "example_solutions": [
+      "Er sucht nach dem alten Buch."
+    ],
+    "english": "He searches for the old book.",
+    "hint": "suchen takes nach + Dativ, Präsens",
+    "tags": [
+      "dativ",
+      "suchen",
+      "nach",
+      "bestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_praeposition_021",
+    "level": "A2.1",
+    "verb": "sprechen",
+    "checklist_item": "praeposition",
+    "task_type": "sentence_construction",
+    "prompt": "Sie ___ mit ein__ alt__ Frau.",
+    "example_solutions": [
+      "Sie spricht mit einer alten Frau."
+    ],
+    "english": "She speaks with an old woman.",
+    "hint": "sprechen takes mit + Dativ, Präsens",
+    "tags": [
+      "dativ",
+      "sprechen",
+      "mit",
+      "unbestimmt"
+    ]
   }
 ]

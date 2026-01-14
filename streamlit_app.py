@@ -61,8 +61,11 @@ def reset_exercise_state():
     if "user_input" in st.session_state:
         del st.session_state["user_input"]
     
-    # Note: Expanders automatically reset because they use exercise.id in their keys
-    # and are set to expanded=False, so each new exercise starts with closed expanders
+    # Clear all toggle states for hints/solutions
+    # These are tied to exercise.id, so they'll be recreated fresh for new exercises
+    keys_to_clear = [k for k in st.session_state.keys() if k.startswith(("show_hint_", "show_translation_", "show_construction_", "show_solution_"))]
+    for key in keys_to_clear:
+        del st.session_state[key]
 
 
 @st.cache_data
@@ -169,6 +172,39 @@ def main():
                 # Brief explanation (only when expanded)
                 st.caption("Favourite verbs appear more often in practice. New verbs are still mixed in automatically.")
                 
+                # Add CSS to style remove buttons as subtle, calm controls
+                st.markdown("""
+                    <style>
+                        /* Subtle remove button - very low visual weight, calm appearance */
+                        button[key^="remove_"] {
+                            background: transparent !important;
+                            border: none !important;
+                            box-shadow: none !important;
+                            padding: 2px 6px !important;
+                            margin: 0 !important;
+                            font-size: 0.85em !important;
+                            color: #bbb !important;
+                            opacity: 0.35 !important;
+                            cursor: pointer !important;
+                            min-width: auto !important;
+                            width: auto !important;
+                            height: auto !important;
+                            line-height: 1.2 !important;
+                            transition: opacity 0.2s ease, color 0.2s ease, background 0.2s ease !important;
+                            font-weight: 300 !important;
+                            vertical-align: middle !important;
+                        }
+                        
+                        /* Show more prominently on hover - gentle reveal */
+                        button[key^="remove_"]:hover {
+                            opacity: 1 !important;
+                            color: #777 !important;
+                            background: #f5f5f5 !important;
+                            border-radius: 3px !important;
+                        }
+                    </style>
+                """, unsafe_allow_html=True)
+                
                 if favourites:
                     # Display as editable list - use container to ensure all items render
                     fav_list = sorted(favourites)
@@ -176,12 +212,12 @@ def main():
                     container = st.container()
                     with container:
                         for verb in fav_list:
-                            col1, col2 = st.columns([5, 1])
+                            col1, col2 = st.columns([7, 1])
                             with col1:
                                 st.markdown(f"⭐ **{verb}**")
                             with col2:
-                                # Subtle removal button
-                                if st.button("×", key=f"remove_{verb}", use_container_width=True, help="Remove from favourites"):
+                                # Subtle removal control - appears faint, becomes visible on hover
+                                if st.button("×", key=f"remove_{verb}", help="Remove from favourites"):
                                     favourites.discard(verb)
                                     save_favourites(favourites)
                                     st.rerun()
@@ -284,17 +320,38 @@ def main():
                     save_favourites(favourites)
                     st.rerun()
             
-            # Use expanders for hint, translation, and examples (no rerun needed - instant!)
-            # Expanders automatically reset when moving to new exercise (they're recreated each time)
-            with st.expander("💡 Hint", expanded=False):
+            # Use button toggles instead of expanders - these reset properly on exercise change
+            # State is tied to exercise.id, so it resets when exercise changes
+            
+            # Hint toggle
+            hint_key = f"show_hint_{exercise.id}"
+            hint_visible = st.session_state.get(hint_key, False)
+            hint_label = "💡 Hide Hint" if hint_visible else "💡 Show Hint"
+            if st.button(hint_label, key=f"btn_hint_{exercise.id}"):
+                st.session_state[hint_key] = not hint_visible
+                st.rerun()
+            if st.session_state.get(hint_key, False):
                 st.info(info['hint'])
             
-            with st.expander("🇬🇧 Translation", expanded=False):
+            # Translation toggle
+            translation_key = f"show_translation_{exercise.id}"
+            translation_visible = st.session_state.get(translation_key, False)
+            translation_label = "🇬🇧 Hide Translation" if translation_visible else "🇬🇧 Show Translation"
+            if st.button(translation_label, key=f"btn_translation_{exercise.id}"):
+                st.session_state[translation_key] = not translation_visible
+                st.rerun()
+            if st.session_state.get(translation_key, False):
                 st.info(info['english'])
             
-            # Show construction hints if available (for sentence_construction tasks)
+            # Construction hints toggle (if available)
             if info.get('construction_hints'):
-                with st.expander("🔧 Construction Hints", expanded=False):
+                construction_key = f"show_construction_{exercise.id}"
+                construction_visible = st.session_state.get(construction_key, False)
+                construction_label = "🔧 Hide Construction Hints" if construction_visible else "🔧 Show Construction Hints"
+                if st.button(construction_label, key=f"btn_construction_{exercise.id}"):
+                    st.session_state[construction_key] = not construction_visible
+                    st.rerun()
+                if st.session_state.get(construction_key, False):
                     st.write("**Available hints:**")
                     for hint in info['construction_hints']:
                         st.write(f"• {hint}")
@@ -333,9 +390,15 @@ def main():
                     placeholder="Type your answer here..."
                 )
             
-            # Example solutions in expander (no rerun needed - instant!)
+            # Example solutions toggle
             st.divider()
-            with st.expander("✅ Example Solution(s)", expanded=False):
+            solution_key = f"show_solution_{exercise.id}"
+            solution_visible = st.session_state.get(solution_key, False)
+            solution_label = "✅ Hide Example Solution(s)" if solution_visible else "✅ Show Example Solution(s)"
+            if st.button(solution_label, key=f"btn_solution_{exercise.id}"):
+                st.session_state[solution_key] = not solution_visible
+                st.rerun()
+            if st.session_state.get(solution_key, False):
                 st.caption("These are example solutions for comparison. Your answer may also be correct.")
                 example_solutions = info['example_solutions']
                 if len(example_solutions) == 1:

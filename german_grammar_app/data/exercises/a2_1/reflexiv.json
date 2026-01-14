@@ -170,5 +170,176 @@
       "interessieren",
       "bestimmt"
     ]
+  },
+  {
+    "id": "a2_1_reflexiv_013",
+    "level": "A2.1",
+    "verb": "sich setzen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Ich ___ ___ auf ein__ neu__ Stuhl.",
+    "example_solutions": [
+      "Ich setze mich auf einen neuen Stuhl."
+    ],
+    "english": "I sit down on a new chair.",
+    "hint": "sich setzen takes auf + Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "reflexiv",
+      "setzen",
+      "unbestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_014",
+    "level": "A2.1",
+    "verb": "sich kämmen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Du ___ ___ mit dein__ neu__ Kamm.",
+    "example_solutions": [
+      "Du kämmst dich mit deinem neuen Kamm."
+    ],
+    "english": "You comb your hair with your new comb.",
+    "hint": "sich kämmen takes mit + Dativ, Präsens",
+    "tags": [
+      "dativ",
+      "reflexiv",
+      "kämmen",
+      "possessiv"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_015",
+    "level": "A2.1",
+    "verb": "sich entscheiden",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Ich ___ ___ für ein__ rot__ Auto.",
+    "example_solutions": [
+      "Ich entscheide mich für ein rotes Auto."
+    ],
+    "english": "I decide on a red car.",
+    "hint": "sich entscheiden takes für + Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "reflexiv",
+      "entscheiden",
+      "unbestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_016",
+    "level": "A2.1",
+    "verb": "sich verabschieden",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Wir ___ ___ von mein__ Freund.",
+    "example_solutions": [
+      "Wir verabschieden uns von meinem Freund."
+    ],
+    "english": "We say goodbye to my friend.",
+    "hint": "sich verabschieden takes von + Dativ, Präsens",
+    "tags": [
+      "dativ",
+      "reflexiv",
+      "verabschieden",
+      "possessiv"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_017",
+    "level": "A2.1",
+    "verb": "sich waschen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Ich ___ ___ mit frisch__ Wasser.",
+    "example_solutions": [
+      "Ich wasche mich mit frischem Wasser."
+    ],
+    "english": "I wash myself with fresh water.",
+    "hint": "sich waschen takes mit + Dativ, Präsens",
+    "tags": [
+      "dativ",
+      "reflexiv",
+      "waschen",
+      "nullartikel"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_018",
+    "level": "A2.1",
+    "verb": "sich treffen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Du ___ ___ mit ___ alt__ Freund.",
+    "example_solutions": [
+      "Du triffst dich mit dem alten Freund."
+    ],
+    "english": "You meet with the old friend.",
+    "hint": "sich treffen takes mit + Dativ, Präsens",
+    "tags": [
+      "dativ",
+      "reflexiv",
+      "treffen",
+      "bestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_019",
+    "level": "A2.1",
+    "verb": "sich interessieren",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Er ___ ___ für ein__ neu__ Buch.",
+    "example_solutions": [
+      "Er interessiert sich für ein neues Buch."
+    ],
+    "english": "He is interested in a new book.",
+    "hint": "sich interessieren takes für + Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "reflexiv",
+      "interessieren",
+      "unbestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_020",
+    "level": "A2.1",
+    "verb": "sich setzen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Wir ___ ___ auf ___ groß__ Stuhl.",
+    "example_solutions": [
+      "Wir setzen uns auf den großen Stuhl."
+    ],
+    "english": "We sit down on the big chair.",
+    "hint": "sich setzen takes auf + Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "reflexiv",
+      "setzen",
+      "bestimmt"
+    ]
+  },
+  {
+    "id": "a2_1_reflexiv_021",
+    "level": "A2.1",
+    "verb": "sich freuen",
+    "checklist_item": "reflexiv",
+    "task_type": "sentence_construction",
+    "prompt": "Sie ___ ___ über dein__ neu__ Auto.",
+    "example_solutions": [
+      "Sie freut sich über dein neues Auto."
+    ],
+    "english": "She is happy about your new car.",
+    "hint": "sich freuen takes über + Akkusativ, Präsens",
+    "tags": [
+      "akkusativ",
+      "reflexiv",
+      "freuen",
+      "possessiv"
+    ]
   }
 ]
