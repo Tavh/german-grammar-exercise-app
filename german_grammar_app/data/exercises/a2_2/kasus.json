@@ -5,7 +5,7 @@
     "verb": "zeigen",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Susanne ___ ihr__ Freundin ihr__ neu__ Wohnung. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Susanne ___ ihr__ Freundin ihr__ neu__ Wohnung.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Susanne zeigt ihrer Freundin ihre neue Wohnung. --> Sie zeigt sie ihr."
     ],
@@ -24,7 +24,7 @@
     "verb": "geben",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Der Lehrer ___ ___ Schülern ___ Hausaufgaben. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Der Lehrer ___ ___ Schülern ___ Hausaufgaben.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Der Lehrer gibt den Schülern die Hausaufgaben. --> Er gibt sie ihnen."
     ],
@@ -43,7 +43,7 @@
     "verb": "schenken",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Wir ___ unser__ Mutter ein__ schön__ Buch. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Wir ___ unser__ Mutter ein__ schön__ Buch.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Wir schenken unserer Mutter ein schönes Buch. --> Wir schenken es ihr."
     ],
@@ -62,7 +62,7 @@
     "verb": "kaufen",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Er ___ sein__ Freundin Blumen. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Er ___ sein__ Freundin Blumen.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Er kauft seiner Freundin Blumen. --> Er kauft sie ihr."
     ],
@@ -81,7 +81,7 @@
     "verb": "erklären",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Der Lehrer ___ ___ Schülern ___ Grammatik. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Der Lehrer ___ ___ Schülern ___ Grammatik.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Der Lehrer erklärt den Schülern die Grammatik. --> Er erklärt sie ihnen."
     ],
@@ -100,7 +100,7 @@
     "verb": "sagen",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Sie ___ ihr__ Bruder ___ Wahrheit. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Sie ___ ihr__ Bruder ___ Wahrheit.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Sie sagt ihrem Bruder die Wahrheit. --> Sie sagt sie ihm."
     ],
@@ -119,7 +119,7 @@
     "verb": "bringen",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Wir ___ unser__ Oma ein__ Kuchen. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Wir ___ unser__ Oma ein__ Kuchen.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Wir bringen unserer Oma einen Kuchen. --> Wir bringen ihn ihr."
     ],
@@ -138,7 +138,7 @@
     "verb": "schreiben",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Er ___ sein__ Mutter ein__ E-Mail. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Er ___ sein__ Mutter ein__ E-Mail.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Er schreibt seiner Mutter eine E-Mail. --> Er schreibt sie ihr."
     ],
@@ -157,7 +157,7 @@
     "verb": "senden",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Ich ___ mein__ Freund ein__ Brief. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Ich ___ mein__ Freund ein__ Brief.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Ich sende meinem Freund einen Brief. --> Ich sende ihn ihm."
     ],
@@ -176,7 +176,7 @@
     "verb": "schicken",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Sie ___ ihr__ Schwester ein__ Paket. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Sie ___ ihr__ Schwester ein__ Paket.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Sie schickt ihrer Schwester ein Paket. --> Sie schickt es ihr."
     ],
@@ -195,7 +195,7 @@
     "verb": "leihen",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Er ___ sein__ Freund sein__ Auto. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Er ___ sein__ Freund sein__ Auto.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Er leiht seinem Freund sein Auto. --> Er leiht es ihm."
     ],
@@ -214,7 +214,7 @@
     "verb": "versprechen",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Ich ___ mein__ Tochter ein__ Geschenk. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Ich ___ mein__ Tochter ein__ Geschenk.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Ich verspreche meiner Tochter ein Geschenk. --> Ich verspreche es ihr."
     ],
@@ -233,7 +233,7 @@
     "verb": "empfehlen",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Der Arzt ___ sein__ Patientin ein__ Medikament. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Der Arzt ___ sein__ Patientin ein__ Medikament.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Der Arzt empfiehlt seiner Patientin ein Medikament. --> Er empfiehlt es ihr."
     ],
@@ -252,7 +252,7 @@
     "verb": "wünschen",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Wir ___ unser__ Freundin viel__ Glück. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Wir ___ unser__ Freundin viel__ Glück.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Wir wünschen unserer Freundin viel Glück. --> Wir wünschen es ihr."
     ],
@@ -271,7 +271,7 @@
     "verb": "wiederholen",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Der Lehrer ___ ___ Schülern ___ Regel. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Der Lehrer ___ ___ Schülern ___ Regel.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Der Lehrer wiederholt den Schülern die Regel. --> Er wiederholt sie ihnen."
     ],
@@ -290,7 +290,7 @@
     "verb": "vorstellen",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Ich ___ mein__ Freund mein__ neue Kollegin. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Ich ___ mein__ Freund mein__ neue Kollegin.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Ich stelle meinem Freund meine neue Kollegin vor. --> Ich stelle sie ihm vor."
     ],
@@ -309,7 +309,7 @@
     "verb": "anbieten",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Er ___ sein__ Gästen ein__ Getränk. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Er ___ sein__ Gästen ein__ Getränk.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Er bietet seinen Gästen ein Getränk an. --> Er bietet es ihnen an."
     ],
@@ -328,7 +328,7 @@
     "verb": "mitteilen",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Sie ___ ihr__ Chef ___ Neuigkeit. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Sie ___ ihr__ Chef ___ Neuigkeit.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Sie teilt ihrem Chef die Neuigkeit mit. --> Sie teilt sie ihm mit."
     ],
@@ -347,7 +347,7 @@
     "verb": "übergeben",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Der Polizist ___ ___ Dieb ___ Geld. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Der Polizist ___ ___ Dieb ___ Geld.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Der Polizist übergibt dem Dieb das Geld. --> Er übergibt es ihm."
     ],
@@ -366,7 +366,7 @@
     "verb": "verschreiben",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Der Arzt ___ sein__ Patient ein__ Rezept. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Der Arzt ___ sein__ Patient ein__ Rezept.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Der Arzt verschreibt seinem Patienten ein Rezept. --> Er verschreibt es ihm."
     ],
@@ -385,7 +385,7 @@
     "verb": "vorlesen",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Die Mutter ___ ihr__ Kind ein__ Geschichte. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Die Mutter ___ ihr__ Kind ein__ Geschichte.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Die Mutter liest ihrem Kind eine Geschichte vor. --> Sie liest sie ihm vor."
     ],
@@ -404,7 +404,7 @@
     "verb": "vorwerfen",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Sie ___ ihr__ Freund ___ Fehler. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Sie ___ ihr__ Freund ___ Fehler.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Sie wirft ihrem Freund den Fehler vor. --> Sie wirft ihn ihm vor."
     ],
@@ -423,7 +423,7 @@
     "verb": "wegnehmen",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Der Dieb ___ ___ Mann ___ Brieftasche. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Der Dieb ___ ___ Mann ___ Brieftasche.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Der Dieb nimmt dem Mann die Brieftasche weg. --> Er nimmt sie ihm weg."
     ],
@@ -442,7 +442,7 @@
     "verb": "zustehen",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Das Recht ___ ___ Menschen zu. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Das Recht ___ ___ Menschen zu.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Das Recht steht den Menschen zu. --> Es steht ihnen zu."
     ],
@@ -461,7 +461,7 @@
     "verb": "zurückgeben",
     "checklist_item": "kasus",
     "task_type": "sentence_construction",
-    "prompt": "Ich ___ mein__ Freund sein__ Buch zurück. Ersetze die Nomen durch Personalpronomen.",
+    "prompt": "Ich ___ mein__ Freund sein__ Buch zurück.\n\nErsetze die Nomen durch Personalpronomen.",
     "example_solutions": [
       "Ich gebe meinem Freund sein Buch zurück. --> Ich gebe es ihm zurück."
     ],
