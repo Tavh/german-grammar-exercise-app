@@ -100,27 +100,19 @@ def main():
         
         # Level filter
         all_levels = [level.value for level in Level]
-        available_levels = ["A2.1"]
-        
-        level_display_options = []
-        for level in all_levels:
-            if level in available_levels:
-                level_display_options.append(level)
-            else:
-                level_display_options.append(f"{level} (coming soon)")
-        
-        selected_display = st.selectbox(
+        selected_level_str = st.selectbox(
             "Level",
-            level_display_options,
+            all_levels,
             index=0
         )
-        selected_level_str = selected_display.split(" (")[0]
+        level_filter = Level(selected_level_str)
         
-        if selected_level_str not in available_levels:
-            st.info("💡 A2.1 is currently the only available level.")
-            level_filter = Level.A2_1
-        else:
-            level_filter = Level(selected_level_str)
+        # Include previous levels option
+        include_previous = st.checkbox(
+            "Include previous levels",
+            value=False,
+            help="Include exercises from all previous levels (e.g., A2.2 includes A2.1)"
+        )
         
         # Checklist filter
         checklist_options = ["All"] + [item.value for item in ChecklistItem]
@@ -130,7 +122,12 @@ def main():
         # Load exercises
         try:
             all_exercises = load_and_validate_exercises(DEFAULT_DATA_DIR)
-            all_filtered = get_exercises_by_filters(all_exercises, level_filter, checklist_filter)
+            all_filtered = get_exercises_by_filters(
+                all_exercises, 
+                level_filter, 
+                checklist_filter,
+                include_previous_levels=include_previous
+            )
             
             if not all_filtered:
                 st.warning("No exercises found matching filters.")
@@ -230,11 +227,19 @@ def main():
                     exercises = []
                 else:
                     exercises = get_exercises_by_filters(
-                        all_exercises, level_filter, checklist_filter, available_verbs
+                        all_exercises, 
+                        level_filter, 
+                        checklist_filter, 
+                        verbs=available_verbs,
+                        include_previous_levels=include_previous
                     )
             elif selected_verbs:
                 exercises = get_exercises_by_filters(
-                    all_exercises, level_filter, checklist_filter, selected_verbs
+                    all_exercises, 
+                    level_filter, 
+                    checklist_filter, 
+                    verbs=selected_verbs,
+                    include_previous_levels=include_previous
                 )
             else:
                 # No verb filter - show all
